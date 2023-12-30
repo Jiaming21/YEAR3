@@ -1,0 +1,46 @@
+
+# where circos you install
+circos_path     =   circos
+bwa             =   bwa
+samtools        =   samtools
+
+threads         =   1
+
+# optional arguments for samtools
+opts_samtools   =  -a -a
+
+#color
+cds             =   141,211,199
+rRNA            =   253,192,134
+tRNA            =   251,128,114
+
+# whether draw GC content circle
+gc              =   no
+win             =   50
+gc_fill         =   128,177,211
+
+# whether draw depth abundance circle
+run_map           =   yes
+depth_file      =   
+depth_fill      =   190,186,218
+fq              =   /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz,/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz
+
+# whether draw base around circle
+base            =   no
+
+# locus name's clolor showed on center of circle
+locus_color     =   black
+
+# gene name label color
+label_color     =   black
+
+# image
+outdir          =   /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization
+png             =   yes
+svg             =   yes
+
+# color or file
+background      =   white
+#background     =   ./background.png
+
+    

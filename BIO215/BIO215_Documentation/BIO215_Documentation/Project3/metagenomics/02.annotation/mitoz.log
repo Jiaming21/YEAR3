@@ -1,0 +1,592 @@
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f152f5851f0>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got updated args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f152f5851f0>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() nhmmer_profile:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() defined_gene_length_f:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 09:56:46,813 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() MT_annotation_BGI_pro_db:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa
+
+2023-11-14 09:56:46,814 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() workdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 09:56:46,814 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() result_wdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 09:56:46,814 - mitoz.utility.utility - ERROR - 
+Can NOT access /home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa !!
+
+2023-11-14 09:56:58,667 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 09:56:58,667 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 09:56:58,667 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f7815d201f0>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got updated args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f7815d201f0>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() nhmmer_profile:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() defined_gene_length_f:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() MT_annotation_BGI_pro_db:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() workdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() result_wdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 09:56:58,668 - mitoz.utility.utility - ERROR - 
+Can NOT access /home/jiaming.huang21/metagenomics/01.assembly/NC001566.1_assembly/final.contigs.fa !!
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f7cd7ad91f0>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got updated args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f7cd7ad91f0>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() nhmmer_profile:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() defined_gene_length_f:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() MT_annotation_BGI_pro_db:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() workdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 09:57:34,953 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() result_wdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 09:57:34,954 - mitoz.utility.utility - ERROR - 
+Can NOT access /home/jiaming.huang21/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa !!
+
+2023-11-14 09:58:12,053 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 09:58:12,053 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 09:58:12,053 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f0230553160>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:58:12,053 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got updated args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f0230553160>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() nhmmer_profile:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() defined_gene_length_f:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() MT_annotation_BGI_pro_db:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() workdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() result_wdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got assembly_file:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got
+fq1: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz
+fq2: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+We will calculate sequence abundances based on the input fastq file!
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+tiara mt_expected_result_file: mitochondrion_final.contigs.fa
+
+2023-11-14 09:58:12,054 - mitoz.utility.utility - INFO - 
+tiara --input /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa --output NC001566.1_findMito.tiara.out.txt  --to_fasta mit pla pro --threads 1  --prob_cutoff 0.65 0.60 --probabilities --min_len 1000
+
+2023-11-14 09:58:17,521 - mitoz.utility.utility - INFO - 
+nhmmer -o NC001566.1_findMito.hmmout --tblout NC001566.1_findMito.hmmtblout --cpu 1 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm mitochondrion_final.contigs.fa
+
+2023-11-14 09:58:53,736 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/get_besthit_of_each_CDS_from_nhmmer.py NC001566.1_findMito.hmmtblout NC001566.1_findMito.hmmtblout.besthit
+
+2023-11-14 09:58:53,767 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/simlify_nhmmer_tbl_besthit.py NC001566.1_findMito.hmmtblout.besthit NC001566.1_findMito.hmmtblout.besthit.sim
+
+2023-11-14 09:58:53,796 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_fasta.py -i mitochondrion_final.contigs.fa -q NC001566.1_findMito.hmmtblout.besthit.sim -o NC001566.1_findMito.hmmtblout.besthit.sim.fa
+
+2023-11-14 09:58:53,860 - mitoz.utility.utility - INFO - 
+filter_by_nhmmer() return:
+mitochondrion_final.contigs.fa, NC001566.1_findMito.hmmtblout.besthit.sim, NC001566.1_findMito.hmmtblout.besthit.sim.fa
+
+2023-11-14 09:58:53,874 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_taxonomy_by_CDS_annotation.py -fa NC001566.1_findMito.hmmtblout.besthit.sim.fa -MTsoft /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -db /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa -thread 1 -genetic_code 5 -requiring_taxa 'Arthropoda' -relax 0 -WISECONFIGDIR /data/anaconda3/envs/mitozEnv/share/wise2/wisecfg -outf NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa
+
+2023-11-14 10:02:33,915 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_hmm-besthit-sim.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa NC001566.1_findMito.hmmtblout.besthit.sim NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa
+
+2023-11-14 10:02:33,953 - mitoz.utility.utility - INFO - 
+do_filter_by_taxa() return:
+hmm_outf_tbl_besthit_sim_filtered_by_taxa:NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa
+hmm_besthit_filtered_by_taxa_fa: NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa
+
+2023-11-14 10:02:33,953 - mitoz.utility.utility - INFO - 
+We are mapping reads to the assembly file to calculate sequence abundance...
+
+2023-11-14 10:02:33,954 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/cal_bwa_abundance.py -fa NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa -fq1 /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz -fq2 '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz'  -out NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa.abun.fa -bwa bwa  -samtools samtools -thread 1
+
+2023-11-14 10:02:35,157 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_by_abundance.py 'abun\=([0-9]+\.*[0-9]*)'  10  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa.abun.fa 
+
+2023-11-14 10:02:35,412 - mitoz.utility.utility - INFO - 
+gather_result() creating: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 10:02:35,413 - mitoz.utility.utility - INFO - 
+cp -r NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.low_abundance /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 10:02:35,425 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/reformat_nhmmer_besthit-sim.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.high_abundance_10.0X NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like
+
+2023-11-14 10:02:35,466 - mitoz.utility.utility - INFO - 
+filter_by_abundance() returns hmm_outf_tbl_besthit_sim_fasta_like: NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like
+
+2023-11-14 10:02:35,467 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/scoring_nhmmer_besthit_sim_reformat.py /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like 'abun\=([0-9]+\.*[0-9]*)'  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted
+
+2023-11-14 10:02:35,505 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/pick_seq_from_scoing_result_base_arr_v4.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.dotted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.stat
+
+2023-11-14 10:02:35,531 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_nhmmer_seq_v2.py -f NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked -d mitochondrion_final.contigs.fa -o NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa
+
+2023-11-14 10:02:35,776 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_Not-picked-seq.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked mitochondrion_final.contigs.fa NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked.fa
+
+2023-11-14 10:02:36,074 - mitoz.utility.utility - INFO - 
+cp -r NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 10:02:36,084 - mitoz.utility.utility - INFO - 
+select_sequences_by_gene_completeness() return:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa
+
+2023-11-14 10:02:36,085 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/circle_check.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa NC001566.1_findMito 3
+
+2023-11-14 10:02:36,332 - mitoz.utility.utility - INFO - 
+quick_circle_check() return:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.mitogenome.fa
+
+2023-11-14 10:02:36,332 - mitoz.utility.utility - INFO - 
+cp -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.mitogenome.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.overlap_information /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 11:30:45,825 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f597b5e2160>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got updated args:
+Namespace(abundance_pattern='abun\\=([0-9]+\\.*[0-9]*)', clade='Arthropoda', debug=False, fastafile='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa', filter_by_taxa=True, fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f597b5e2160>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, min_abundance=10, outprefix='NC001566.1_findMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', requiring_relax='0', requiring_taxa='Arthropoda', skip_read_mapping=False, slow_search=False, thread_number='1', workdir='./')
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() nhmmer_profile:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() defined_gene_length_f:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() MT_annotation_BGI_pro_db:
+/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() workdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:30:45,826 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() result_wdir:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 11:30:45,827 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got assembly_file:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa
+
+2023-11-14 11:30:45,827 - mitoz.utility.utility - INFO - 
+findmitoscaf.main() got
+fq1: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz
+fq2: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz
+
+2023-11-14 11:30:45,827 - mitoz.utility.utility - INFO - 
+We will calculate sequence abundances based on the input fastq file!
+
+2023-11-14 11:30:45,827 - mitoz.utility.utility - INFO - 
+tiara mt_expected_result_file: mitochondrion_final.contigs.fa
+
+2023-11-14 11:30:45,827 - mitoz.utility.utility - INFO - 
+tiara --input /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/01.assemble/NC001566.1_assembly/final.contigs.fa --output NC001566.1_findMito.tiara.out.txt  --to_fasta mit pla pro --threads 1  --prob_cutoff 0.65 0.60 --probabilities --min_len 1000
+
+2023-11-14 11:30:51,597 - mitoz.utility.utility - INFO - 
+nhmmer -o NC001566.1_findMito.hmmout --tblout NC001566.1_findMito.hmmtblout --cpu 1 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm mitochondrion_final.contigs.fa
+
+2023-11-14 11:31:31,219 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/get_besthit_of_each_CDS_from_nhmmer.py NC001566.1_findMito.hmmtblout NC001566.1_findMito.hmmtblout.besthit
+
+2023-11-14 11:31:31,250 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/simlify_nhmmer_tbl_besthit.py NC001566.1_findMito.hmmtblout.besthit NC001566.1_findMito.hmmtblout.besthit.sim
+
+2023-11-14 11:31:31,285 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_fasta.py -i mitochondrion_final.contigs.fa -q NC001566.1_findMito.hmmtblout.besthit.sim -o NC001566.1_findMito.hmmtblout.besthit.sim.fa
+
+2023-11-14 11:31:31,344 - mitoz.utility.utility - INFO - 
+filter_by_nhmmer() return:
+mitochondrion_final.contigs.fa, NC001566.1_findMito.hmmtblout.besthit.sim, NC001566.1_findMito.hmmtblout.besthit.sim.fa
+
+2023-11-14 11:31:31,356 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_taxonomy_by_CDS_annotation.py -fa NC001566.1_findMito.hmmtblout.besthit.sim.fa -MTsoft /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -db /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Animal_CDS_protein.fa -thread 1 -genetic_code 5 -requiring_taxa 'Arthropoda' -relax 0 -WISECONFIGDIR /data/anaconda3/envs/mitozEnv/share/wise2/wisecfg -outf NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa
+
+2023-11-14 11:35:15,602 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_hmm-besthit-sim.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa NC001566.1_findMito.hmmtblout.besthit.sim NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa
+
+2023-11-14 11:35:15,624 - mitoz.utility.utility - INFO - 
+do_filter_by_taxa() return:
+hmm_outf_tbl_besthit_sim_filtered_by_taxa:NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa
+hmm_besthit_filtered_by_taxa_fa: NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa
+
+2023-11-14 11:35:15,625 - mitoz.utility.utility - INFO - 
+We are mapping reads to the assembly file to calculate sequence abundance...
+
+2023-11-14 11:35:15,625 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/cal_bwa_abundance.py -fa NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa -fq1 /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz -fq2 '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz'  -out NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa.abun.fa -bwa bwa  -samtools samtools -thread 1
+
+2023-11-14 11:35:16,843 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/filter_by_abundance.py 'abun\=([0-9]+\.*[0-9]*)'  10  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.fa.abun.fa 
+
+2023-11-14 11:35:17,097 - mitoz.utility.utility - INFO - 
+cp -r NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.low_abundance /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 11:35:17,108 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/reformat_nhmmer_besthit-sim.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.high_abundance_10.0X NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like
+
+2023-11-14 11:35:17,147 - mitoz.utility.utility - INFO - 
+filter_by_abundance() returns hmm_outf_tbl_besthit_sim_fasta_like: NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like
+
+2023-11-14 11:35:17,148 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/scoring_nhmmer_besthit_sim_reformat.py /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like 'abun\=([0-9]+\.*[0-9]*)'  NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted
+
+2023-11-14 11:35:17,191 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/pick_seq_from_scoing_result_base_arr_v4.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.dotted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.stat
+
+2023-11-14 11:35:17,220 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_nhmmer_seq_v2.py -f NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked -d mitochondrion_final.contigs.fa -o NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa
+
+2023-11-14 11:35:17,485 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/extract_Not-picked-seq.py NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked mitochondrion_final.contigs.fa NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked.fa
+
+2023-11-14 11:35:17,760 - mitoz.utility.utility - INFO - 
+cp -r NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.Not-picked.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 11:35:17,769 - mitoz.utility.utility - INFO - 
+select_sequences_by_gene_completeness() return:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa
+
+2023-11-14 11:35:17,769 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/findmitoscaf/script/circle_check.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa NC001566.1_findMito 3
+
+2023-11-14 11:35:18,024 - mitoz.utility.utility - INFO - 
+quick_circle_check() return:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.mitogenome.fa
+
+2023-11-14 11:35:18,024 - mitoz.utility.utility - INFO - 
+cp -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.hmmtblout.besthit.sim.filtered-by-taxa.new_abun.fasta-like.sorted.picked.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.mitogenome.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.overlap_information /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+
+2023-11-14 11:46:23,175 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/spades.py
+
+2023-11-14 11:46:23,175 - mitoz.utility.utility - INFO - 
+Found: /data/anaconda3/envs/mitozEnv/bin/megahit
+
+2023-11-14 11:46:23,175 - mitoz.utility.utility - INFO - 
+annotate.main() got args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result/NC001566.1_findMito.mitogenome.fa'], fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f5e1a8d25e0>, genetic_code='auto', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='NC001566.1_annoMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='Test sp.', template_sbt='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='1', workdir='./')
+
+2023-11-14 11:46:23,175 - mitoz.utility.utility - INFO - 
+annotate.main() got updated args:
+Namespace(clade='Arthropoda', debug=False, fastafiles=['/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result/NC001566.1_findMito.mitogenome.fa'], fq1='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', fq2='/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', func=<function main at 0x7f5e1a8d25e0>, genetic_code='5', logger=<Logger mitoz.utility.utility (DEBUG)>, mitoz_module_used='annotate', outprefix='NC001566.1_annoMito', profiles_dir='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles', species_name='Test sp.', template_sbt='/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt', thread_number='1', workdir='./')
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() will be working in:/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() chdir:/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() MT_annotation_BGI_pro_db:/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() defined_gene_length_f:/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() s_rRNA_CM:/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+annotate.main() l_rRNA_CM:/data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - INFO - 
+Start to check if the sequence ids are too long (which will not work with BioPython) later.
+
+2023-11-14 11:46:23,176 - mitoz.utility.utility - WARNING - 
+File /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result/NC001566.1_findMito.mitogenome.fa, the sequence id '>k71_0': length is okay! And there is topology information 'topology=linear' at the header line!!
+
+2023-11-14 11:46:23,177 - mitoz.utility.utility - INFO - 
+Starting to annotate /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result/NC001566.1_findMito.mitogenome.fa
+
+2023-11-14 11:46:23,177 - mitoz.utility.utility - INFO - 
+result_wdir for /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result/NC001566.1_findMito.mitogenome.fa: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_annoMito.NC001566.1_findMito.mitogenome.fa.result
+
+2023-11-14 11:46:23,177 - mitoz.utility.utility - INFO - 
+working in /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:46:23,177 - mitoz.utility.utility - INFO - 
+annotation_infile: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:46:23,187 - mitoz.utility.utility - INFO - 
+Got topology information for k71_0: topology=linear
+
+2023-11-14 11:46:23,187 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:46:23,197 - mitoz.utility.utility - INFO - 
+export WISECONFIGDIR=/data/anaconda3/envs/mitozEnv/share/wise2/wisecfg
+perl /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/MT_annotation_BGI_V1.32/MT_annotation_BGI.pl -i /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa -d /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/MT_database/Arthropoda_CDS_protein.fa -o ./ -g 5 -cpu 1
+
+2023-11-14 11:47:47,470 - mitoz.utility.utility - INFO - 
+rm -rf *.nhr *.nin *.nsq *.ndb *.nto *.not *.ntf formatdb.log *.tblastn.shell *.length *.blast *.blast.filter *.shell *.blast.solar *.blast.solar.filter *.blast.solar.filter.table *.blast.solar.filter.table.nonredundance *.blast.solar.filter.nr *.genewise *.solar.genewise.gff *.solar.genewise.gff.cds
+
+2023-11-14 11:47:47,480 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_CDSposition.py NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.solar.genewise.gff.cds.position.cds NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position
+
+2023-11-14 11:47:47,515 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/pick_most_related_sp_from_position_cds.py NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.solar.genewise.gff.cds.position.cds /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.most_related_species.txt 
+
+2023-11-14 11:47:48,203 - mitoz.utility.utility - INFO - 
+sort -k1,1 -k6,6n NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position >NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted
+
+2023-11-14 11:47:48,211 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/revise_CDS_pos_v6.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted 5 NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted.revised
+
+2023-11-14 11:47:48,476 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/filter_cds_by_annotated-len.py NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted.revised NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted.revised.filtered 0.8 
+
+2023-11-14 11:47:48,518 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/cds_ft_v2.py NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.position.sorted.revised.filtered 5 NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.ft
+
+2023-11-14 11:47:48,554 - mitoz.utility.utility - INFO - 
+cds_annotation() chdir back to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:47:48,555 - mitoz.utility.utility - INFO - 
+cds_annotation() return:
+mt_file_cdsft: NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.ft
+annt_most_related_sp_file: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.most_related_species.txt
+
+2023-11-14 11:47:48,555 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:47:48,555 - mitoz.utility.utility - INFO - 
+## begin tRNA annotation...
+## remove previous tRNA result file (if any)
+rm -rf /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna
+
+2023-11-14 11:47:48,568 - mitoz.utility.utility - INFO - 
+cd /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/mitfi
+# and find the cmsearch progrm 
+./detect_platform.sh 
+java -Xmx2048m -jar mitfi.jar -cores 1  -code 5 -evalue 0.001 -onlycutoff /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.k71_0 >>/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna
+
+2023-11-14 11:53:03,882 - mitoz.utility.utility - INFO - 
+rm -rf /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.k71_0
+
+2023-11-14 11:53:03,892 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/tRNA_ft_mitfi.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna.ft
+
+2023-11-14 11:53:03,933 - mitoz.utility.utility - INFO - 
+tRNA_annotation() chdir back to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:53:03,934 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:53:03,934 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.tbl --cpu 1 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa >NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.out
+
+2023-11-14 11:53:05,116 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.tbl /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.ft
+
+2023-11-14 11:53:05,148 - mitoz.utility.utility - INFO - 
+cmsearch -g --tblout /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.tbl --cpu 1 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa >/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.out
+
+2023-11-14 11:53:08,599 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/rRNA_ft.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.tbl /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.ft
+
+2023-11-14 11:53:08,631 - mitoz.utility.utility - INFO - 
+rRNA_annotation() chdir back to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:53:08,632 - mitoz.utility.utility - INFO - 
+rRNA_annotation() return:
+s_rRNA_ft: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.ft
+l_rRNA_ft: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.ft
+
+2023-11-14 11:53:08,632 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:53:08,632 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/join_ft.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.tbl NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.ft
+
+2023-11-14 11:53:08,668 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/find_contro_region.py -fa_file /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa -PCG_cutoff_file /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS_length_list -PCG_len_ratio 0.9  -s_rRNA_CM_file /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_12snew.cm -l_rRNA_CM_file /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm -rRNA_len_ratio 0.9  -tRNA_num_min 22  -fea_files NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.cds.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.trna.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.s-rRNA.ft /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.ft -CR_len_min 600  -outfile NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.control_region.ft
+
+2023-11-14 11:53:08,923 - mitoz.utility.utility - INFO - 
+cat NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.control_region.ft >> /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.tbl
+
+2023-11-14 11:53:08,931 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/prepare_fsa.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa 'Test sp.' 5 /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.fsa
+
+2023-11-14 11:53:08,970 - mitoz.utility.utility - INFO - 
+tbl2asn -t /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/template.sbt -a s -p . -V vb
+
+2023-11-14 11:53:09,011 - mitoz.utility.utility - INFO - 
+/data/anaconda3/envs/mitozEnv/bin/python3.8 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/annotate/script/genbank_gene_stat_v2.py /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.most_related_species.txt annotate > summary.txt
+
+2023-11-14 11:53:09,357 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() chdir back to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:53:09,358 - mitoz.utility.utility - INFO - 
+combine_annotations_and_find_control_region() return:
+    tbl_file:/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.tbl
+    errorsummary_val_file: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/errorsummary.val
+    tbl2asn_gbf: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf
+    summary_file: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/summary.txt
+
+2023-11-14 11:53:09,358 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+
+2023-11-14 11:53:09,359 - mitoz.utility.utility - INFO - 
+mitoz-tools gbseqextractor -f /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf -prefix NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf -types CDS rRNA tRNA wholeseq gene -cds_translation -p -l
+
+2023-11-14 11:53:10,387 - mitoz.utility.utility - INFO - 
+extract_gene_sequences() chdir back to /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation
+
+2023-11-14 11:53:10,388 - mitoz.utility.utility - INFO - 
+gather_result() creating: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_annoMito.NC001566.1_findMito.mitogenome.fa.result
+
+2023-11-14 11:53:10,389 - mitoz.utility.utility - INFO - 
+cp -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.most_related_species.txt /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.tbl /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/errorsummary.val /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf* /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/summary.txt /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_annoMito.NC001566.1_findMito.mitogenome.fa.result
+
+2023-11-14 11:53:10,402 - mitoz.utility.utility - INFO - 
+visualize.main() got args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'yes', 'fq1': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', 'fq2': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', 'bwa': 'bwa', 'thread': '1', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2023-11-14 11:53:10,403 - mitoz.utility.utility - INFO - 
+visualize.main() got updated args:
+{'logger': <Logger mitoz.utility.utility (DEBUG)>, 'circos': 'circos', 'gb': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf', 'gc': 'no', 'win': 50, 'gc_fill': '128,177,211', 'depth_file': '', 'run_map': 'yes', 'fq1': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz', 'fq2': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz', 'bwa': 'bwa', 'thread': '1', 'samtools': 'samtools', 'opts_samtools': '-a -a', 'depth_fill': '190,186,218', 'cds_color': '141,211,199', 'trna_color': '251,128,114', 'rrna_color': '253,192,134', 'label_color': 'black', 'locus_color': 'black', 'base': 'no', 'bgc': 'white', 'outdir': '/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization', 'png': 'yes', 'svg': 'yes'}
+
+2023-11-14 11:53:10,403 - mitoz.utility.utility - INFO - 
+visualize.main() creating: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization
+
+2023-11-14 11:53:10,403 - mitoz.utility.utility - INFO - 
+visualize.main() chdir to: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization
+
+2023-11-14 11:53:10,403 - mitoz.utility.utility - INFO - 
+sort_gb_by_length():
+in_gb: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf
+out_gb: NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf.sortedByLength
+
+2023-11-14 11:53:10,413 - mitoz.utility.utility - INFO - 
+updated args.gb: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf.sortedByLength
+
+2023-11-14 11:53:10,413 - mitoz.utility.utility - INFO - 
+circos using this config_file: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/visual_config.txt
+
+2023-11-14 11:53:10,414 - mitoz.utility.utility - INFO - 
+perl /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/visualize/draw_circos_for_mitogenome_auto_depth.pl --gb /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf.sortedByLength --conf /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/visual_config.txt
+
+
+2023-11-14 11:53:37,602 - mitoz.utility.utility - INFO - 
+visualize.main() returns: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization
+
+2023-11-14 11:53:37,602 - mitoz.utility.utility - INFO - 
+cp -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/circos.png /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/circos.svg /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/mt_visualization/circos.depth.txt /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_annoMito.NC001566.1_findMito.mitogenome.fa.result
+
+2023-11-14 11:53:37,619 - mitoz.utility.utility - INFO - 
+
+Found resulting_gb_files:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.gbf
+
+2023-11-14 11:53:37,620 - mitoz.utility.utility - INFO - 
+And related resulting files can be found from:
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_findMito.result
+/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/NC001566.1_annoMito.NC001566.1_findMito.mitogenome.fa.result

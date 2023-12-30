@@ -1,0 +1,13 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+k71_0                -         16snew_curated.81-1  -          cm        1     1630    14599    13268      -    no    1 0.16 500.7  118.9   2.4e-08 !   topology=linear
+#
+# Program:         cmsearch
+# Version:         1.1.1 (July 2014)
+# Pipeline mode:   SEARCH
+# Query file:      /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm
+# Target file:     /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+# Option settings: cmsearch -g --tblout /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa.l-rRNA.tbl --cpu 1 /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/rRNA_CM/v1.1_16snew.cm /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa/NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa 
+# Current dir:     /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/02.annotation/tmp_NC001566.1_annoMito_NC001566.1_findMito.mitogenome.fa_mitoscaf.fa
+# Date:            Tue Nov 14 11:53:08 2023
+# [ok]

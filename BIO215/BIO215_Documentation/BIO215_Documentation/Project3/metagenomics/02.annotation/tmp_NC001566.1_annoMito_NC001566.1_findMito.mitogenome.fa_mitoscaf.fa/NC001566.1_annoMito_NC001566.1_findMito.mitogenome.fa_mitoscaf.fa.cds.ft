@@ -1,0 +1,66 @@
+>Feature k71_0
+502	1503	gene
+			gene	ND2
+502	1503	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+1794	3359	gene
+			gene	COX1
+1794	3359	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+3618	4295	gene
+			gene	COX2
+3618	4295	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+4444	4602	gene
+			gene	ATP8
+4444	4602	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+4584	5264	gene
+			gene	ATP6
+4584	5264	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+5285	6064	gene
+			gene	COX3
+5285	6064	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+6185	6538	gene
+			gene	ND3
+6185	6538	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+8556	6892	gene
+			gene	ND5
+8556	6892	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+9954	8644	gene
+			gene	ND4
+9954	8644	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+10254	9991	gene
+			gene	ND4L
+10254	9991	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+10441	10944	gene
+			gene	ND6
+10441	10944	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+11004	12155	gene
+			gene	CYTB
+11004	12155	CDS
+			product	cytochrome b
+			transl_table	5
+13219	12302	gene
+			gene	ND1
+13219	12302	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5

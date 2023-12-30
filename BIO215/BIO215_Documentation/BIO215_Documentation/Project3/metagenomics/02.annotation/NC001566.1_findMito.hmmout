@@ -1,0 +1,1339 @@
+# nhmmer :: search a DNA model or alignment against a DNA database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query file:                      /data/anaconda3/envs/mitozEnv/lib/python3.8/site-packages/mitoz/profiles/CDS_HMM/Arthropoda_CDS.hmm
+# target sequence database:        mitochondrion_final.contigs.fa
+# output directed to file:         NC001566.1_findMito.hmmout
+# hits tabular output:             NC001566.1_findMito.hmmtblout
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       ATP6  [M=662]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    1.1e-58  190.9 234.2  k71_0      4597   5261  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+          3   -1.9   2.6  k71_0      4150   4133  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  190.9 234.2   1.1e-58         2       659 ..      4597      5261 ..      4596      5264 ..     16343    0.88
+
+  Alignment:
+  score: 190.9 bits
+   ATP6    2 TgataacaaatttatTttcaattTTtgAcccttctacaatttttaatttatcattaaattgattaagaacatttttaggttttttatttattccttcaatat 103 
+             Tgataa aaatttatTt+ aat TTtgA cc tc ac a+   taatttatca taaattgatta   a a t tta++  tt t  tt ttcc  +aat t
+  k71_0 4597 TGATAATAAATTTATTTGAAATATTTGATCCATCAACTAGAAATAATTTATCAATAAATTGATTATTTATAATATTACCAATTATTATTTTTCCAAGAATTT 4698
+             699**********************************98888899999****************************************************** PP
+
+   ATP6  104 tttgattaattccttctcgatttaatattttatgaaatataatttttaaaaaattacataaagaatttaaaattttattaagaa...aataaa......gga 196 
+             tttgattaattc  tc cga tta   tt t   aaa a+a+t  t aa     ta ataa gaatttaaa+tt+t t+aa a    a    a         
+  k71_0 4699 TTTGATTAATTCAATCACGAATTATATTTATTATAAAAACACTAATAAATTTTATATATAATGAATTTAAAGTTGTTTCAAAATctaA----AtatcaaTCT 4796
+             ********************999999999999999999999999999998888899999**********9999987777666653331....1122111111 PP
+
+   ATP6  197 ataacttttatttttatttcattatttatttttaTtttatttaatAAttttttaggatTatttccttatattTTtactagaactagtcAtttaatatttact 298 
+             a  a t ttatttttatt +atta t  ttt taTt ta tta tAA+ tttt  gatTa ttccttat+ttTTtac   aac ag cAt+ta t tt a t
+  k71_0 4797 AATATTATTATTTTTATTAGATTAATACTTTATATTATAATTACTAACATTTTTAGATTAATTCCTTATGTTTTTACATTAACAAGACATCTACTTTTAAAT 4898
+             1133334788888999999*********************************************************************************** PP
+
+   ATP6  299 ttatcatTagcttTacctttatgattaacttttataatatttggatgaattaataatactaaacatatatttgctcatttagttCctcaaggaactcctaca 400 
+              ta   tTa c tTa c ttatgatt a+ ttt taat t t  a     taataat  ta      t +tt +tcatttagttCc   a    c cc + a
+  k71_0 4899 ATAATTTTATCATTAACATTATGATTTAGATTTCTAATTTATTTAATTTATAATAATTATATTATATTCCTTAGTCATTTAGTTCCATTAAATTCACCAGTA 5000
+             *************************************999877666666666777777777777777888999***************************** PP
+
+   ATP6  401 gtttTaataccttttaTagtattaattGAaacaattAGaaatattAttCgacCtgtaacttTagcagTtcGatTaacagctAAtataattgCaggaCAttTa 502 
+              tttTaata  +tttaTagta t attGAa+  attAGa   attAttCgacCt +aac tTa ca TtcGatTa cagc AAt taatt C ggaCAttTa
+  k71_0 5001 TTTTTAATAAACTTTATAGTAATTATTGAACTTATTAGATTAATTATTCGACCTTGAACATTATCAATTCGATTATCAGCAAATTTAATTTCTGGACATTTA 5102
+             ****************************************************************************************************** PP
+
+   ATP6  503 ttaataactttattaggaaa...tattggacctactataaca..tttattaatttttttaattattattcaaattttatTattaatttTagAattagctgta 599 
+              t  taac ttattaggaa    tatt ga  +  tat  ca  ttta++     tt    t at attcaaa t ta+T ttaa+ttTagAa t   t ta
+  k71_0 5103 ATTTTAACATTATTAGGAATtttTATTAGAAACTTTATTTCAatTTTACC---AATTAATTTAATAATTCAAAATATACTTTTAACTTTAGAAATTTTTATA 5201
+             ******************86222222222222222222111222222222...2233222333555566********************************* PP
+
+   ATP6  600 gcaattaTtcaagctTatgTatttacaattttaataactcTatattctagagaagttaat 659 
+              caat aTtcaa +tTatgTattt caatt+t  taa t Tatatt + + gaa + aat
+  k71_0 5202 TCAATAATTCAAAGTTATGTATTTTCAATTCTTTTAATTTTATATTTCTCTGAATCAAAT 5261
+             ***************************************************999776665 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.9   2.6         3       443       460 ..      4150      4133 ..      4169      4113 ..     16343    0.81
+
+  Alignment:
+  score: -1.9 bits
+   ATP6  443 attAttCgacCtgtaact 460 
+              t+AttCg cCtg+aact
+  k71_0 4150 TTAATTCGTCCTGGAACT 4133
+             577888999999888886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (662 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        2  (0.0209)
+# CPU time: 4.08u 0.10s 00:00:04.18 Elapsed: 00:00:04.19
+# Mc/sec: 5.16
+//
+Query:       ATP8  [M=125]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+     0.0011   12.2  39.1  k71_0      4444   4475  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        2.9    1.1  20.9  k71_0       650    713  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   12.2  39.1    0.0011         1        32 [.      4444      4475 ..      4444      4532 ..     16343    0.76
+
+  Alignment:
+  score: 12.2 bits
+   ATP8    1 aTtcctcaaataacacctataaattgattaat 32  
+             aTtcctcaaataa acctataaa tgatt  t
+  k71_0 4444 ATTCCTCAAATAATACCTATAAAATGATTTTT 4475
+             578***********************987643 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?    1.1  20.9       2.9         4        65 ..       650       713 ..       647       734 ..     16343    0.53
+
+  Alignment:
+  score: 1.1 bits
+   ATP8   4 cctcaaataacacctataaattgattaatt.tt.atttatttttttttttattatttttattat 65 
+            cc+caaataa acc + a+att att att tt a t    +t  ttt++a +attttt t  t
+  k71_0 650 CCACAAATAAAACCCCAAGATTAATTTATTaTTcAGTATCAGTAATTTCAAGAATTTTTTTATT 713
+            999*****99999988777777766655432221222222223334444444444333333222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (125 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        2  (0.00294)
+# CPU time: 3.43u 0.01s 00:00:03.44 Elapsed: 00:00:03.45
+# Mc/sec: 1.18
+//
+Query:       COX1  [M=1541]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+          0 1028.0 283.3  k71_0      1800   3315  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ! 1028.0 283.3         0        12      1530 ..      1800      3315 ..      1789      3331 ..     16343    0.99
+
+  Alignment:
+  score: 1028.0 bits
+   COX1   12 aaatgattattttcaactaatcataaagatattggaactttatattttatttttggagcttgatcaggaatagtaggaacatctttaagaatatttattcga 113 
+             aa+tgatt+ t tcaac+aatcataaa atattgg+a +tt+tat ttatt t g   + tgatc ggaata tagga catc  t+aga+t  ttattcga
+  k71_0 1800 AAGTGATTCATATCAACCAATCATAAAAATATTGGGATCTTGTATATTATTCTAGCTTTATGATCTGGAATACTAGGATCATCAATGAGACTTATTATTCGA 1901
+             56899************************************************************************************************* PP
+
+   COX1  114 acagaattaggacaaccaggatctttaattggagatgatcaaatttataatgttattgttacagctcatgcttttgttataattttttttatagttatacca 215 
+             a+agaatta ga ++ccaggatc t aatt g+ atgatcaaatttataat + attgttac   tcatgc tt+ t ataattttttttatagttatacca
+  k71_0 1902 ATAGAATTAAGATCCCCAGGATCATGAATTAGCAATGATCAAATTTATAATACAATTGTTACTAGTCATGCATTCCTAATAATTTTTTTTATAGTTATACCA 2003
+             ****************************************************************************************************** PP
+
+   COX1  216 attataattggaggatttggaaattgattagttcctttaatattaggagctccagatatagcttttcctcgaataaataatataagattttgattactacct 317 
+              tt taattggaggatttggaaattg++t  ttcctttaata+tagga c cc gatatagc tt+cc+cgaataaataatat agattttgattact cct
+  k71_0 2004 TTTTTAATTGGAGGATTTGGAAATTGGCTTATTCCTTTAATACTAGGATCACCTGATATAGCATTCCCCCGAATAAATAATATTAGATTTTGATTACTTCCT 2105
+             ****************************************************************************************************** PP
+
+   COX1  318 ccttctttaactttactatttataagaagaatagtagaaagaggagcaggaacaggatgaacagtttatcctcctctatcaagagatattgctcatgcagga 419 
+             cc+tc tta  t tact tt  taagaa   ta t  a ++a ga caggaac ggatgaacagt tatcc cc  tatca++a at t   tcat c   a
+  k71_0 2106 CCCTCATTATTTATACTTTTATTAAGAAATTTATTTTATCCAAGACCAGGAACTGGATGAACAGTATATCCACCATTATCAGCATATTTATATCATTCTTCA 2207
+             ****************************************************************************************************** PP
+
+   COX1  420 gcttcagtagatttagcaattttttctctacatttagcaggagtttcttcaattttaggagcagttaattttattacaacaattattaatatacgatcaaaa 521 
+             +cttcagtagattt gcaattttttctct cat ta cagga tttc+tcaatt tagga ca t aa+tt at +  acaattat a  ata  a      
+  k71_0 2208 CCTTCAGTAGATTTTGCAATTTTTTCTCTTCATATATCAGGAATTTCCTCAATTATAGGATCATTAAACTTAATAGTTACAATTATAATAATAAAAAATTTT 2309
+             ****************************************************************************************************** PP
+
+   COX1  522 ggtataaatttagatcgaatacctttatttgtttgatcagttgtaattactgctattttactactattatctttaccagttttagcaggagctattactata 623 
+               tataaatt  ga+c aat  c ttattt + tgatcagtt t attac gc atttta ta t  tatc ttacc gt ttagc ggagc+attactata
+  k71_0 2310 TCTATAAATTATGACCAAATTTCATTATTTCCATGATCAGTTTTTATTACAGCAATTTTATTAATTATATCATTACCTGTATTAGCTGGAGCAATTACTATA 2411
+             ****************************************************************************************************** PP
+
+   COX1  624 ctattaacagatcgaaatttaaatacatcattttttgatcctgcaggaggaggagatccaattttatatcaacatttattttgattttttggtcaccctgaa 725 
+             ctatta   gatcgaaattt aatacatcattttt+gatcct  aggagg ggagatccaatt+t tatcaacatttattttgattttttggtca+cc gaa
+  k71_0 2412 CTATTATTTGATCGAAATTTTAATACATCATTTTTCGATCCTATAGGAGGTGGAGATCCAATTCTTTATCAACATTTATTTTGATTTTTTGGTCATCCAGAA 2513
+             ****************************************************************************************************** PP
+
+   COX1  726 gtttatattttaattttaccaggatttggtataatttctcatattattagtcaagaaagaggaaaaaaagaagcatttggaactttaggaataatttatgct 827 
+             gtttatattttaattttacc ggatttgg  taat+tctcatatt+t a   a gaaagaggaaaaaaagaa   tttgg a ttta gaataatttatgc 
+  k71_0 2514 GTTTATATTTTAATTTTACCTGGATTTGGATTAATCTCTCATATTGTAATAAATGAAAGAGGAAAAAAAGAAATTTTTGGTAATTTAAGAATAATTTATGCA 2615
+             ****************************************************************************************************** PP
+
+   COX1  828 atattagcaattggatttttaggatttgttgtatgagctcatcatatatttacagtaggaatagatgttgatacacgagcttattttacatcagcaactata 929 
+             atattag aattggattt+tagg ttt+ttgt tgagc catca+atatttacagt+gga tagatgttgatac cgagc tattttac tcagcaac+ata
+  k71_0 2616 ATATTAGGAATTGGATTTCTAGGTTTTATTGTTTGAGCACATCACATATTTACAGTCGGATTAGATGTTGATACTCGAGCATATTTTACTTCAGCAACAATA 2717
+             ****************************************************************************************************** PP
+
+   COX1  930 attattgctgttcctacaggaattaaaatttttagatgattagcaactttttatggaacacaaattaattatagtccttctttattatgagctttaggattt 1031
+             at+attgctgt cc acaggaattaaa+tttttagatgattagcaactt t+atgg  ca aa t aa t  a t  ttc  t ttatga c +tagg ttt
+  k71_0 2718 ATCATTGCTGTACCAACAGGAATTAAAGTTTTTAGATGATTAGCAACTTATCATGGTTCAAAATTAAAATTAAATATTTCAATTTTATGATCACTAGGTTTT 2819
+             ****************************************************************************************************** PP
+
+   COX1 1032 gtttttttatttacaataggaggattaacaggagttgttttagctaattcatcaattgatattgttctacatgatacttattatgtagtagctcattttcat 1133
+              tt t +tatttac at gg ggattaacagga tt+t tta c aattc tc attgatatt+ttct catgatac tatta+gt gt g  cattttcat
+  k71_0 2820 ATTATACTATTTACTATTGGTGGATTAACAGGAATTATATTATCAAATTCTTCTATTGATATTATTCTTCATGATACATATTACGTTGTTGGACATTTTCAT 2921
+             ****************************************************************************************************** PP
+
+   COX1 1134 tatgttttatctataggagctgtatttgctattataggaggatttattcattgatttcctttatttacaggattaactataaatcctaaatgattaaaaatt 1235
+             tatgtt+t tc atagg gc+gtatttgc+attat  +a gatttattcattgat tcc tta ttac ggatta    taaat  taaatgattaaaaatt
+  k71_0 2922 TATGTTCTTTCAATAGGTGCAGTATTTGCAATTATTTCAAGATTTATTCATTGATATCCATTAATTACTGGATTATTATTAAATATTAAATGATTAAAAATT 3023
+             ****************************************************************************************************** PP
+
+   COX1 1236 caattttttattatatttattggagtaaatttaacatttttccctcaacattttttaggattagcaggaatacctcgacgatattcagattatccagatgct 1337
+             caattt ttat atatttattggagtaaat+taac tt+tt+cctcaacattttttagga+ta+ a   atacc cgacg tattcaga+tatccagat ct
+  k71_0 3024 CAATTTATTATAATATTTATTGGAGTAAATCTAACTTTCTTTCCTCAACATTTTTTAGGACTAATATCTATACCACGACGTTATTCAGACTATCCAGATTCT 3125
+             ****************************************************************************************************** PP
+
+   COX1 1338 tatacatcatgaaatattatttcatcaattggatcaataatttcatttgttggagttataatatttatttttattatttgagaaagatttatttcaaaacga 1439
+             tat  +t+ tgaaat + atttcatc at ggatcaataatttcatt   t ga t at  t tt atttttattattt agaaagatt atttc aaacga
+  k71_0 3126 TATTACTGTTGAAATTCAATTTCATCTATAGGATCAATAATTTCATTAAATAGAATAATTTTTTTAATTTTTATTATTTTAGAAAGATTAATTTCTAAACGA 3227
+             ****************************************************************************************************** PP
+
+   COX1 1440 ataattatatttactattaatataacttcttcaattgaatgattacaaaattttcctcctgcagaacatagatattatgaattacctataa 1530
+             ata t  tattta   t+aa+   +  tc tca+ttgaatgatta a   ttt cc cct+ aga cat +a att  gaa t cc  ta 
+  k71_0 3228 ATATTATTATTTAAATTCAAC---CAATCATCACTTGAATGATTAAATTTTTTACCACCTCTAGATCATTCACATTTAGAAATTCCATTAT 3315
+             999998888887765555444...456788999***********************************************99999987655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1541 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:              8079  (0.247); expected (0.003)
+Residues passing Fwd filter:              5896  (0.18); expected (3e-05)
+Total number of hits:                        1  (0.0464)
+# CPU time: 0.59u 0.06s 00:00:00.64 Elapsed: 00:00:00.66
+# Mc/sec: 76.32
+//
+Query:       COX2  [M=674]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+   2.9e-101  331.4 176.4  k71_0      3622   4281  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        1.6   -1.1   4.6  k71_0      4126   4072  flag=1 multi=72.2030 len=16343
+        3.8   -2.3  22.1  k71_0      2327   2398  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  331.4 176.4  2.9e-101         5       668 ..      3622      4281 ..      3618      4296 ..     16343    0.96
+
+  Alignment:
+  score: 331.4 bits
+   COX2    5 caacatgatcaaatttaagttttcaagatagagcttctcctttaatagaacaattaattttttttcatgatcatactataattattttaattataattatta 106 
+             c acatgat  a  tt a  tttcaaga  +a  ttc   tt     ga  a ttaattt  tttcat at   + tataat att t attataatt + a
+  k71_0 3622 CCACATGATTTATATTTATATTTCAAGAATCAAATTCATATTATGCTGATAATTTAATTTCATTTCATAATATAGTTATAATAATTATTATTATAATTTCAA 3723
+             678888998888888889999999999999999999999988888999999*************************************************** PP
+
+   COX2  107 ttttagttgtttatataataattattttattttttaataaatttattaatcgatttttattagaaggtcaaataattGAaattatttgaactattttacctg 208 
+             + tta  tgt tatat at  t + tttattt t aa+aaatt+ + aat  atttttatta aa  tca a  attGAaattatttgaac att t cc  
+  k71_0 3724 CATTAACTGTATATATTATTTTAGATTTATTTATAAACAAATTCTCAAATTTATTTTTATTAAAAAATCATAATATTGAAATTATTTGAACAATTATTCCAA 3825
+             ****************************************************************************************************** PP
+
+   COX2  209 ctattattttaatttttattgcttttccttctttacgatttttatatttaataGAtgaaattaataatcctttaattacttttAAaactattGgtcatCAat 310 
+              tattatt+ta t  ttatt  ttttcc tc tta  a ttttatatttaat GAtgaaatt+  aatccttt  tt c  ttAAa c attGgtcatCAat
+  k71_0 3826 TTATTATTCTATTAATTATTTGTTTTCCATCATTAAAAATTTTATATTTAATTGATGAAATTGTAAATCCTTTTTTTTCAATTAAATCAATTGGTCATCAAT 3927
+             ****************************************************************************************************** PP
+
+   COX2  311 GatattGaagttatgaatattcagattttaaaaatattgaatttgattcttatataattccatcaaatgaattaaaaaaataattttcGtctattagatgta 412 
+             GatattGa + tatgaatat+caga tttaa aatattgaatttgattc tatata t    t  aat a tt    aaa++a tttcGt+ta+taga  + 
+  k71_0 3928 GATATTGATCATATGAATATCCAGAATTTAATAATATTGAATTTGATTCATATATACTAAATTATAATAATTT----AAACCAATTTCGTTTACTAGAAACT 4025
+             *******************************************************998555444444444433....4556999****************** PP
+
+   COX2  413 gataatcgaatagttttacctataaatactcaaattcgaattttagttacatcaacaGAtGtaattCAttcttgaactgttccttctttaggagtaAAagta 514 
+             gataatcgaatagt  t cc ataaa a +c+a t cg  t  t  + acatcaacaGAtGtaattCAttc tgaac gttcc tc+ttagg  t AAagt 
+  k71_0 4026 GATAATCGAATAGTAATTCCAATAAAAATCCCACTACGTTTAATTACAACATCAACAGATGTAATTCATTCATGAACAGTTCCATCCTTAGGTATTAAAGTT 4127
+             ****************************************************************************************************** PP
+
+   COX2  515 GAtgctattCCtGGaCGattaAatcaaattagtttttttattaatcgaccaggattattttatGGtcaatGttcaGAaatttGtGGagcaaatCAtagattt 616 
+             GAtgc +ttCC GGaCGa t Aatcaa t a ttt  tta+ aa cg ccagga t tttt tGGtcaatGttcaGAaatttGtGG   aaatCAtagattt
+  k71_0 4128 GATGCAGTTCCAGGACGAATTAATCAATTAAATTTAATTAGAAAACGTCCAGGAATTTTTTTTGGTCAATGTTCAGAAATTTGTGGTATAAATCATAGATTT 4229
+             ****************************************************************************************************** PP
+
+   COX2  617 AtaCCtattgtaattgaaagaatttcaataaaaaattttattaattgaatta 668 
+             AtaCC att taattgaa +aa+ttca t  aa atttt t aattga+t a
+  k71_0 4230 ATACCAATTATAATTGAATCAACTTCATTTCAATATTTTTTAAATTGAGTAA 4281
+             ******************************************9999998765 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.1   4.6       1.6       422       476 ..      4126      4072 ..      4145      4052 ..     16343    0.88
+
+  Alignment:
+  score: -1.1 bits
+   COX2  422 atagttttacctataaatactcaaattcgaattttagttacatcaacaGAtGtaa 476 
+             a+  t  taccta   at  + +  ttc  + +t a+ttacatc++ +GAtGt  
+  k71_0 4126 ACTTTAATACCTAAGGATGGAACTGTTCATGAATGAATTACATCTGTTGATGTTG 4072
+             455678899999999999999999****99999999**************99975 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.3  22.1       3.8        56       122 ..      2327      2398 ..      2308      2436 ..     16343    0.56
+
+  Alignment:
+  score: -2.3 bits
+   COX2   56 aattaattttttttcatgatcatacta.....taattattttaattataattattattttagttgtttatat 122 
+             aatt   tt ttt+catgatca   t       a+++atttta t at at  ++ t +  gt+ t+  t+ 
+  k71_0 2327 AATTTCATTATTTCCATGATCAGTTTTtattaCAGCAATTTTATTAATTATATCATTACCTGTATTAGCTGG 2398
+             445555667788999999999865544111113444555555555555555444444444444433333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (674 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             31700  (0.97); expected (0.003)
+Residues passing Fwd filter:             31700  (0.97); expected (3e-05)
+Total number of hits:                        3  (0.0241)
+# CPU time: 2.56u 0.06s 00:00:02.62 Elapsed: 00:00:02.63
+# Mc/sec: 8.38
+//
+Query:       COX3  [M=786]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+   5.8e-101  330.3 247.3  k71_0      5298   6053  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        9.6   -4.0   7.4  k71_0     15381  15404  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  330.3 247.3  5.8e-101        17       772 ..      5298      6053 ..      5278      6067 ..     16343    0.98
+
+  Alignment:
+  score: 330.3 bits
+   COX3   17 atccatttcatttagtagattaaagaccttgacctttaataggatctattggagcaataattttaataataggaataattaaatgatttcataaatttaata 118 
+              +ccatttcat tagt  +  a agaccttgacc  t at   atc  tt ga   ataa t + +t+at  gaa+a+tta  tga tt ata+at+ a + 
+  k71_0 5298 TCCCATTTCATATAGTTACAAATAGACCTTGACCAATTATTTTATCATTTAGATTTATAAATACTCTCATTAGAACAGTTATTTGAATTTATAGATCAATCT 5399
+             489*****************************************************************************************9999888777 PP
+
+   COX3  119 ttaatttattaattttaggatttattattattattttaactatatttcaatgatgacgagatgttattcgagAaggaacttttcaaGGattacatactataa 220 
+             + a  tt  taatttta   tttatta t + attttaa tata t   atgat  cgagat ttattcgagAa gaac tttcaaGG  tacat c ata 
+  k71_0 5400 CAATATTTATAATTTTAAATTTTATTAATTCAATTTTAATTATAATATTATGATTTCGAGATATTATTCGAGAAAGAACATTTCAAGGTATACATTCAATAT 5501
+             77888889999999999999999999999************************************************************************* PP
+
+   COX3  221 aagtaataaaaggattacgatgaggaataattttatttAttatatcaGAagttttattttttatttcttttttttgagctttttttcatagaagattatctc 322 
+                t a+ aa    tta+ at   gaataattttatttAtt tatcaGAa t  tattttttatttc tttttttga c ttttttcat +a +a t tctc
+  k71_0 5502 TTATTACTAATTTTTTAAAATTTAGAATAATTTTATTTATTTTATCAGAATTAATATTTTTTATTTCATTTTTTTGAACATTTTTTCATTCATCAATTTCTC 5603
+             ****************************************************************************************************** PP
+
+   COX3  323 ctactattgaaattggaataatatgacCtcctataggaattataccttttaatccttttcaaattcctttattaaatactataattttattatcatcagGag 424 
+             c a tattgaaatt   ataa+atgacC cc a a   atta a  ttttaatcc  t +aaattccttta+taaat c  t att+t +tatcatcagGa 
+  k71_0 5604 CAAATATTGAAATTAATATAACATGACCACCAAAAAATATTAAATTTTTTAATCCAATAGAAATTCCTTTACTAAATTCATTTATTCTTGTATCATCAGGAT 5705
+             ****************************************************************************************************** PP
+
+   COX3  425 ttacagttacatgagctcatcatagattaatagaaaataattatacacaaacaatacaaggattattttttactgttatattagGaatttattttactattc 526 
+             ttacagttacat a +tcat at   ttaat    aataatt  a ac  a+aa a +a   ttatt tt ac+ tt+tattagGaatttattttac attc
+  k71_0 5706 TTACAGTTACATTAAGTCATTATTATTTAATTATTAATAATTTAAAACTTAGAAAATCATATTTATTATTAACAATTCTATTAGGAATTTATTTTACAATTC 5807
+             ************************************************9999999999999***************************************** PP
+
+   COX3  527 ttcAagcatatgAatAtattgaagctccatttactattgcagattcagtttatggatcaactttttttatagcaACaggatttCAtGgatttCAtGtaatta 628 
+             ttcAa ca  tgAatA+    a  c    ttt +t tt   gat +  tttatgg tcaa tttttttatagcaACaggatttCAtGg tt CAtGta t a
+  k71_0 5808 TTCAAACAATTGAATACTCAAATTCATTTTTTTGTTTTAATGATAGTATTTATGGTTCAATTTTTTTTATAGCAACAGGATTTCATGGTTTACATGTATTAA 5909
+             ****************************************************************************************************** PP
+
+   COX3  629 ttGGaacaatatttttattaatttgtttaattcgacttataaaaaatcatttttctacaaatcatcattttggatttgaagcagcagcttGatAttGaCAtt 730 
+             ttGGa caat+tttttattaattt+ttta  tcga t ataaa a tcatttttcta  a  cat at t    tttgaa  agca  ttGatAttGaCAtt
+  k71_0 5910 TTGGATCAATCTTTTTATTAATTTCTTTATATCGAATAATAAATATTCATTTTTCTAATATACATAATATAAATTTTGAATTAGCAATTTGATATTGACATT 6011
+             ****************************************************************************************************** PP
+
+   COX3  731 ttGttgatgtagtttGattatttttatatatttcaatttAtt 772 
+             ttGt ga+gta tttGattatttttatata+ t  atttA+t
+  k71_0 6012 TTGTAGACGTAATTTGATTATTTTTATATACATTTATTTACT 6053
+             *************************************99997 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -4.0   7.4       9.6       250       273 ..     15381     15404 ..     15361     15423 ..     16343    0.83
+
+  Alignment:
+  score: -4.0 bits
+   COX3   250 attttatttAttatatcaGAagtt 273  
+               ttt att+Att+t tcaGAa t+
+  k71_0 15381 CTTTCATTCATTGTTTCAGAATTC 15404
+              46677999***********99765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (786 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             31025  (0.949); expected (0.003)
+Residues passing Fwd filter:             24763  (0.758); expected (3e-05)
+Total number of hits:                        2  (0.0239)
+# CPU time: 1.90u 0.04s 00:00:01.94 Elapsed: 00:00:01.94
+# Mc/sec: 13.24
+//
+Query:       CYTB  [M=1137]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+   1.2e-169  556.2 295.2  k71_0     11060  12131  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        8.2   -5.7  12.7  k71_0      2055   2107  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  556.2 295.2  1.2e-169        54      1128 ..     11060     12131 ..     11039     12142 ..     16343    0.97
+
+  Alignment:
+  score: 556.2 bits
+   CYTB    54 tttaattgatttaccaacaccatcaaatatttcattttgatgaAattttggatctttattaggattatgtttaataattcAaattattacaggattattt 153  
+              t  aatt atttaccaac cca+ aaatatt   t t  atgaAattttggatc  t +t gga t t tttaataattcAaat+att c ggatt  tt
+  k71_0 11060 TACAATTTATTTACCAACTCCAGTAAATATTAATTATATATGAAATTTTGGATCAATTCTTGGAATTTTTTTAATAATTCAAATCATTTCTGGATTTATT 11159
+              55566778899***************************************************************************************** PP
+
+   CYTB   154 ttagctatacattattcagctaatattgaaatagctttttatagagtaattcatatttgtcgagatgtaaattatggatgattaattcgaactattcAtg 253  
+              tta c atacattatt+ +c aatattga at gcttt+t+  +a t a+t atatt     agat taaatt+ ggatgatta ttcg    attcA+ 
+  k71_0 11160 TTATCAATACATTATTGTCCAAATATTGATATTGCTTTCTGATCAATTACTAATATTATAAAAGATATAAATTCAGGATGATTATTTCGTTTAATTCACA 11259
+              **************************************************************************************************** PP
+
+   CYTB   254 ctaatggagcttcatttttttttatttgtatatatattcAtattggacgaggaatttattatggatcttataaatttatacatacatgaataattggagt 353  
+                aatggagc tcatttt tttt t    atatatattcAtatt g cga    t t ttat g tc tataaatt a   at+ atga++aattgga t
+  k71_0 11260 TAAATGGAGCATCATTTTATTTTTTAATAATATATATTCATATTAGTCGAAATTTATTTTATTGTTCATATAAATTAAATAATGTATGAGGAATTGGAAT 11359
+              **************************************************************************************************** PP
+
+   CYTB   354 aataattttatttttaataatagcaacagcttttataggatAtgttttaccttgaggacAaAtatctttttgaggagctacagtaAttActAatttatta 453  
+               ataatt+t tt  ta +aatagca+c gc tttataggatAtgt +tacc tgaggacAaAtatc t ttgagg gc acagt AttActAat+t tta
+  k71_0 11360 TATAATTCTTTTAATATCAATAGCAGCTGCATTTATAGGATATGTACTACCATGAGGACAAATATCATATTGAGGTGCAACAGTTATTACTAATCTTTTA 11459
+              **************************************************************************************************** PP
+
+   CYTB   454 tcagcaattccttatttaggaaatgatttagttcaatgaatttgaggaggatttgcagttgataatgctactttaactcgattttttacttttcAtttta 553  
+              tcagcaattccttat t gg +at +  t gt   atgaatttgagg ggattt ca tt ataatgctac ttaa tcgatttttt cttt cAtttta
+  k71_0 11460 TCAGCAATTCCTTATATTGGTGATACAATTGTATTATGAATTTGAGGTGGATTTTCAATTAATAATGCTACATTAAATCGATTTTTTTCTTTACATTTTA 11559
+              **************************************************************************************************** PP
+
+   CYTB   554 ttttaccttttattattttagctatagtaataattcAtttattatttctacAtcaaacaggatcaaataatccattaggattaaatagaaatatagataa 653  
+              ttttacc tt  t atttta  tatagt at +ttcAtttatt   + tacAt  aac ggatca +taatcc +t ggat+aaat   aata   ataa
+  k71_0 11560 TTTTACCATTATTAATTTTATTTATAGTTATTCTTCATTTATTTGCCTTACATTTAACTGGATCATCTAATCCTCTTGGATCAAATTTTAATAATTATAA 11659
+              **************************************************************************************************** PP
+
+   CYTB   654 aattccatttcatccttattttacatttaaagAtattataggatttattattataattttaattttaattttattaattttaattaatccttatttatta 753  
+              aatt catttcatcc tatttt ca ttaaagAt+tt taggattt  tat+at+ t+tt at+tt at tt+ t a ttt +    tcc tat+  tta
+  k71_0 11660 AATTTCATTTCATCCATATTTTTCAATTAAAGATCTTTTAGGATTTTATATCATCTTATTTATCTTTATATTCATTAATTTTCAATTTCCATATCATTTA 11759
+              **************************************************************************************************** PP
+
+   CYTB   754 ggagacccagatAAttttattccagctaatcctttagttactcctgttcAtAttcaaccagAatgatattttttatttgcttAtgcaattttacgatcaa 853  
+              ggaga ccaga+AAttt+a     gc aatcc  ta  tactcc  +tcAtAtt aacc gAatgatattt++tatttgc tAt caattttacga caa
+  k71_0 11760 GGAGATCCAGACAATTTCAAAATTGCAAATCCAATAAATACTCCAACTCATATTAAACCTGAATGATATTTCCTATTTGCATATTCAATTTTACGAGCAA 11859
+              **************************************************************************************************** PP
+
+   CYTB   854 ttcctaatAaattaggaggagtaattgctttagttatatcaattttaattttatttattttaccttttattaataaaaaaaaatttcaaggaattaaatt 953  
+              ttcctaatAaattaggagg gtaat+g  ttagt atatcaatt+t att+t t tatt ta  tttt  taataa    aaa t   a  +a taaatt
+  k71_0 11860 TTCCTAATAAATTAGGAGGTGTAATCGGATTAGTAATATCAATTCTTATTCTTTATATTATAATTTTTTATAATAAT---AAAATAATAAACAATAAATT 11956
+              *********************************************************99999987777666555555...55555555666788999999 PP
+
+   CYTB   954 ttatcctattaatcaaattttattttgaattttagttattatttttattttattaacatgaattggagctcgaccagtagaagatccttatattataata 1053 
+              t at    t aat+aaattt  t ttgaat tt  tta ta +tt+attttattaacatga t gg    c a  a t gaa atcc t ta+ta  at 
+  k71_0 11957 TAATATATTAAATAAAATTTATTATTGAATATTTATTAATAACTTCATTTTATTAACATGATTAGGTAAACAATTAATTGAATATCCATTTACTAATATT 12056
+              999999*************99999**************************************************************************** PP
+
+   CYTB  1054 ggacaaattttaactattatttattttttatatttttttattaatccttttattattaaattatgagataaaata 1128 
+                   a t tt ac+a+ a+ tattttttatatttttt+ t aat  +t t t a+ aaattatgagataa  ta
+  k71_0 12057 AATATATTATTTACAACAACATATTTTTTATATTTTTTCTTAAATTTCTATTTAAGAAAATTATGAGATAATTTA 12131
+              **************************************9999999999999999999999999***999887665 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -5.7  12.7       8.2       940       992 ..      2055      2107 ..      2029      2136 ..     16343    0.62
+
+  Alignment:
+  score: -5.7 bits
+   CYTB  940 caaggaattaaattttatcctattaatcaaattttattttgaattttagttat 992 
+             c  g  at ++att+  +c +at+aat+a att+ attttga t+ t   t +
+  k71_0 2055 CCTGATATAGCATTCCCCCGAATAAATAATATTAGATTTTGATTACTTCCTCC 2107
+             33334455566666666666677777777777777777777776666555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1137 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        2  (0.0344)
+# CPU time: 4.58u 0.14s 00:00:04.72 Elapsed: 00:00:04.71
+# Mc/sec: 7.89
+//
+Query:       ND1  [M=926]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    1.4e-99  324.2 276.7  k71_0     13203  12371  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        2.9   -4.1   7.0  k71_0     12402  12429  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  324.2 276.7   1.4e-99        19       857 ..     13203     12371 ..     13223     12350 ..     16343    0.91
+
+  Alignment:
+  score: 324.2 bits
+    ND1    19 gttttttaattttaattatttgtgtttTagTtggagTtgcttTttttactttattagagcgaAaagtttTaggttatattcaaattcGtaaaGgtcctaa 118  
+               ttt tt+atttt+at at+   gtttTa Tt+gagT+gc tTttt+actttattaga+cgaAaa+tttTaggttatattca++ tcGtaaaGgtcctaa
+  k71_0 13203 ATTTATTGATTTTGATAATCATAGTTTTAATTAGAGTAGCATTTTTAACTTTATTAGAACGAAAAATTTTAGGTTATATTCAGGATCGTAAAGGTCCTAA 13104
+              55566788899999************************************************************************************** PP
+
+    ND1   119 taaagttggttttataggaatttttcAacCtttttctgAtgctattAAgtTatttactaaagaacaaatttttcctattttttctaattattttatttat 218  
+              taaa tt   tt  t gg at tttcAacCtttt +tgAtgc  t AAgtTatt  ctaaagaa +a ttttt  ta tt ttc aatt  tttattta 
+  k71_0 13103 TAAAATTATATTGTTTGGTATATTTCAACCTTTTAGTGATGCATTAAAGTTATTATCTAAAGAATGATTTTTTTTTAATTATTCAAATTTATTTATTTA- 13005
+              *****************************************************************9999999999888888888888876644444433. PP
+
+    ND1   219 tatttttctcctgtttttagtttttttttatctttattaatttgaataattattccttattttattaatttatttaattttaatttaggtattttatttt 318  
+                   t + cct t tt a +ttttttttatc tta+t at tgaat  t+  tcctt+ ttt++   t tat t at tt+a tt  gtatttt+ttt 
+  k71_0 13004 -----TAGACCTATATTAATATTTTTTTTATCATTAGTTATATGAATTTTGTATCCTTGATTTGGATTTATATATTATATTGAATTTAGTATTTTGTTTA 12910
+              .....4699***********************************************887777776666677777778888888888999*********** PP
+
+    ND1   319 ttttatgttgtacaagattaggagtttatactattataattgctggttgatcttctaattctaatTattctttattaggaggttttcgagctgttgctca 418  
+              t tt+t  + t  a+g tta gagtttat+ct+tt ta ttg tgg tga  ttctaatt+taatTat+ct t ttagga ++ t+cg+   gt  c   
+  k71_0 12909 TGTTGTTAGTTTTAGGTTTAAGAGTTTATCCTGTTTTATTTGTTGGATGAATTTCTAATTGTAATTATGCTATTTTAGGATCAATACGGTTAGTATCAAC 12810
+              ******9999****************************************************************************************** PP
+
+    ND1   419 aactatttcttatgAagttagattagctttaattttattatcttttatttttttaattgaaagttttaatttaattaatttttttaattatcaaaaatat 518  
+              aa  atttc t tgAa tta  tta  ttt  t  tatt  + tt at +t  ta+ttga+agtttt + tt a t+a tttttt  tt tca+aa  at
+  k71_0 12809 AATAATTTCATTTGAAATTAATTTATTTTTTTTAGTATTTAGATTAATAATAATAGTTGAGAGTTTTTCATTTAATGAATTTTTTTTTTTTCAGAATAAT 12710
+              *******************************************************************999999999999999999999************ PP
+
+    ND1   519 atttgattttttttttttttttttcctttatttttaatttgatttatttcttgtttagctGAaactaatCgtactccttttgAttttgctgaaggggaat 618  
+              att  attt++  tttt+tt t tcc ttat ttt+at   +ttta+t +    tta  tGAa   aatCg+actcc tttgAttt   tgaagg gaat
+  k71_0 12709 ATTAAATTTGCAATTTTATTGTATCCATTATATTTGATGATGTTTACTAGAATATTAATTGAATTAAATCGAACTCCATTTGATTTAATTGAAGGAGAAT 12610
+              ************999999999*********999999888778899******************************************************* PP
+
+    ND1   619 ctgAgtTagTttctggaTttAatattgaatatagaagaggtggatttgctttaatttttttagctgAatatgctagaaTtttatttataagattattatt 718  
+              ctgA+tTagT tctgg TttAatattgaatat   aga g   atttg  ttaattttttta ctgAatat  +a  aTt+tatttataaga+t  t tt
+  k71_0 12609 CTGAATTAGTATCTGGTTTTAATATTGAATATCATAGAAGAATATTTGTATTAATTTTTTTATCTGAATATATAAATATTATATTTATAAGAGTTATTTT 12510
+              **************************************************************************************************** PP
+
+    ND1   719 tatttttatatttttaggtggtgattttttttatttttttttttattttaaatta.atttttattttttttttatttatttgagttcgaggaactttacc 817  
+               a+ tt+atatttt  gg   t a t tt+ t+  tt+  ttt  ttttaa tta  t+ttt+ t ttt ttta ttatttga ttcgagg a tttacc
+  k71_0 12509 AAGATTAATATTTTATGGATTTAAATATTGATCAATTAAATTTA-TTTTAATTTAtTTATTTCATATTTGTTTAATTATTTGAATTCGAGGTATTTTACC 12411
+              ***********999888776665444444444444444433333.22333332221222222222333346688999*********************** PP
+
+    ND1   818 tcGttttcgttatgataaatTaatatatttagctTGaaaa 857  
+              tcG  ttcg tatgataaatTaata at ta +tTGaa+ 
+  k71_0 12410 TCGAATTCGATATGATAAATTAATAAATATATGTTGAACT 12371
+              ***********************************99875 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -4.1   7.0       2.9       798       825 ..     12402     12429 ..     12382     12449 ..     16343    0.85
+
+  Alignment:
+  score: -4.1 bits
+    ND1   798 tgagttcgaggaactttacctcGttttc 825  
+               ga ttcgagg a   tacctcG  ttc
+  k71_0 12402 CGAATTCGAGGTAAAATACCTCGAATTC 12429
+              58999******************98776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (926 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        2  (0.0263)
+# CPU time: 3.34u 0.12s 00:00:03.46 Elapsed: 00:00:03.46
+# Mc/sec: 8.75
+//
+Query:       ND2  [M=939]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    7.6e-09   25.5  76.3  k71_0       671    906  flag=1 multi=72.2030 len=16343
+    6.5e-07   19.1 134.3  k71_0      7787   7389  flag=1 multi=72.2030 len=16343
+    0.00061    9.2  29.0  k71_0      9161   9099  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+       0.15    1.3  22.0  k71_0      1977   2089  flag=1 multi=72.2030 len=16343
+          2   -2.4   9.2  k71_0      9321   9288  flag=1 multi=72.2030 len=16343
+        2.8   -2.9  21.5  k71_0      2474   2532  flag=1 multi=72.2030 len=16343
+          5   -3.7  31.8  k71_0     11191  11293  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   25.5  76.3   7.6e-09       178       376 ..       671       906 ..       651       931 ..     16343    0.73
+
+  Alignment:
+  score: 25.5 bits
+    ND2 178 TAtTtttTaattcaa..gctttagcatcaataatttTtttattttcaattat.........aattttaatta........att..................... 241
+            TA Ttt T attca+   c +ta   tcaa aatttTtttatt+t  at at                            a t                     
+  k71_0 671 TAATTTATTATTCAGtaTCAGTAATTTCAAGAATTTTTTTATTCTTTATAATtattgtataC---------TtatcatccA-Ttagatttactaaaacagatac 764
+            55567777777777644566677777888888888887777766665553332223322220.........1222223331.0344445666677777777776 PP
+
+    ND2 242 .......attataattattttagcttTattaataAAaataGgagcagccCCttTtcattttTGatttcctaaagttatagaaggattaaattgaataaattttt 338
+                    ttata+tt    ta   tT tt  taAAaat Gga c   cCC+tTtcattttTGa t   t a   t   gaa  a taaattgaa ++a  ttt
+  k71_0 765 ttttaatTTTATAGTTCAAATAATATTTTTTTTAAAAATTGGAACTTTCCCCTTTCATTTTTGAATAATTTATTCTTATGAAATAATAAATTGAAAGCAAATTT 868
+            66665442224555555555788888888999***************************************98888889************************* PP
+
+    ND2 339 ttatttTaataacttgacaaAAaaTtgctCCttTaatt 376
+            tt t  Ta +aac+t a   AAa Tt  tCC  T   t
+  k71_0 869 TTTTAATATCAACATTAATTAAATTTATTCCAATTTAT 906
+            ***************99999999999999999875333 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   19.1 134.3   6.5e-07       458       822 ..      7787      7389 ..      7844      7369 ..     16343    0.67
+
+  Alignment:
+  score: 19.1 bits
+    ND2  458 aaacttcattacgaaaaaTtaTagcttatTCttCaaTtaatcatataggaTgaaTaataatagcaataataattagagaaaatttatgaataattt...att 556 
+             aa      tta  aaaa Tt T gcttatTCt C  T a+ ca  taggaT  aTaataa a  a ta +aatt+g  +aa+t+ at a+ta ttt   att
+  k71_0 7787 AATTAGATTTAAAAAAAGTTGTTGCTTATTCTACTTTAAGACAATTAGGATTTATAATAAGAATATTATCAATTGGTTCAACTGAATTAGTATTTTtacATT 7686
+             3444445667889999****************************************************999**99999999988888766666555333688 PP
+
+    ND2  557 ttattattTattcaattataatttttattataatttt.aatatt...taataaatttaaaatattt.tatattaatcaa.atattt................ 636 
+             t  ttatt at caat  t a +t+  t at  tt t  +t tt      ta at  a a tat t tata taatcaa atatt+                
+  k71_0 7685 TATTTATTCATGCAATATTTAAATCATTAATGTTTATaTGTGTTggtAGGTATAT--ACATTATATaTATAGTAATCAAgATATTCgaatatattatggtat 7586
+             8889999999999998888777766666666544433222222222111111111..111122222124455555565523333225555556666766666 PP
+
+    ND2  637 .......aataaaaatt.........aataaaatttatattttttataaattTtttatcttTaggaggatTaCCtCCttttttaggaTTtttaccaAAatga 722 
+                    a        t         aa aa a t at tt+ tt t  +  Tttta   tTa g gg tT CCt  ttt  t gg T tt   caAAa   
+  k71_0 7585 atattatA--------TttatccaatAAAAAGAATAATTTTAATTTTTTCAATTTTAAGATTATGTGGTTTTCCTTTTTTAGTTGGTTATTATTCAAAAGAT 7492
+             55443321........02333342222222334455555566666666666799**************************9**9999999999999999888 PP
+
+    ND2  723 ataattattaaatttttaattaaaaataatttattt...tttataatatttattttaattatatcatcattaattacattatttttttatttacgaataatt 821 
+              taattatt+aa t+tt  tt   a+ aa  ta tt   ttt +aata+tta tttaattat    +ca t  ttac  tat +t tt  tt cgaataatt
+  k71_0 7491 TTAATTATTGAAATATTTTTTTTTAGAAAAATAATTtatTTTTCAATAATTAATTTAATTATTGGTACAATTTTTACTGTATCCTATTCATTTCGAATAATT 7390
+             8888999999999666666664443333333333332224445556778888889*********************************99999999999776 PP
+
+    ND2  822 t 822 
+             t
+  k71_0 7389 T 7389
+             5 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !    9.2  29.0   0.00061       467       529 ..      9161      9099 ..      9184      9078 ..     16343    0.84
+
+  Alignment:
+  score: 9.2 bits
+    ND2  467 tacgaaaaaTtaTagcttatTCttCaaTtaatcatataggaTgaaTaataatagcaataataa 529 
+             ta  a  aaTtaT gc  +tTC tC aTt+ tcatataggaT aaTaat ata +aataataa
+  k71_0 9161 TAAAATCAATTATTGCAATTTCATCTATTGTTCATATAGGATTAATAATTATAAGAATAATAA 9099
+             55666678999****************************************999999877654 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?    1.3  22.0      0.15       400       506 ..      1977      2089 ..      1957      2130 ..     16343    0.66
+
+  Alignment:
+  score: 1.3 bits
+    ND2  400 tttattattataattattattttatctgctattattggagcaattggag...gattaaatcaaacttcattacgaaaa...aTtaTagcttatTCttCaaTt 495 
+              t at+att t  ttat +tt+ta c+ +t t+attggag+a ttgga    g++t a tc    ++ a+ta ga  a     taTagc+t++ C+  aaT 
+  k71_0 1977 CTAATAATTTTTTTTATAGTTATACCATTTTTAATTGGAGGATTTGGAAattGGCTTATTCCTTTAATACTAGGATCAcctGATATAGCATTCCCCCGAATA 2078
+             3444556666677788999999999999999**************997655566666666655444444444444333211123567777777777777777 PP
+
+    ND2  496 aatcatatagg 506 
+             aat atat  g
+  k71_0 2079 AATAATATTAG 2089
+             77777776666 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.4   9.2         2       245       278 ..      9321      9288 ..      9356      9268 ..     16343    0.69
+
+  Alignment:
+  score: -2.4 bits
+    ND2  245 ataattattttagcttTattaataAAaataGgag 278 
+             ataatt t  +  c  T  ta taAAa taGgag
+  k71_0 9321 ATAATTTTAGCTTCAATTATATTAAAATTAGGAG 9288
+             3444444444778888888889999999999886 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.9  21.5       2.8       757       814 ..      2474      2532 ..      2450      2595 ..     16343    0.52
+
+  Alignment:
+  score: -2.9 bits
+    ND2  757 ttttt.ataatatttattttaattatatcatcattaattacattatttttttatttacg 814 
+             t+ttt  +aa+atttatttt att t t  tcat  a  a  ttat+tttt attt   
+  k71_0 2474 TCTTTaTCAACATTTATTTTGATTTTTTGGTCATCCAGAAGTTTATATTTTAATTTTAC 2532
+             33333144468888888888888888888888888886666666665554444443321 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -3.7  31.8         5       479       566 ..     11191     11293 ..     11171     11332 ..     16343    0.57
+
+  Alignment:
+  score: -3.7 bits
+    ND2   479 TagcttatTCttCaaTtaatcata..................taggaTgaaTaataatagcaataataattagagaaaatttatgaataatttattttat 560  
+              T gctt +T +tCaaTta+t ata                  +aggaTga Ta t      aat + +at a+ g a++ t+at   t   tt ttt at
+  k71_0 11191 TTGCTTTCTGATCAATTACTAATAttataaaagatataaattCAGGATGATTATTTCGTTTAATTCACATAAATGGAGCATCAT---TTTATTTTTTAAT 11287
+              567777777778887766655433111111111111111111778888888888888877777765555555544444443333...2222222344444 PP
+
+    ND2   561 tattTa 566  
+              +at Ta
+  k71_0 11288 AATATA 11293
+              444444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (939 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        7  (0.0308)
+# CPU time: 3.19u 0.15s 00:00:03.34 Elapsed: 00:00:03.34
+# Mc/sec: 9.19
+//
+Query:       ND3  [M=354]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    1.9e-29   95.2  91.8  k71_0      6274   6517  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        2.4   -0.3  14.0  k71_0      1985   2042  flag=1 multi=72.2030 len=16343
+        5.1   -1.3  19.8  k71_0      5627   5582  flag=1 multi=72.2030 len=16343
+        8.4   -2.0   4.4  k71_0      4129   4089  flag=1 multi=72.2030 len=16343
+        8.5   -2.1   5.2  k71_0      7996   7969  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   95.2  91.8   1.9e-29        90       333 ..      6274      6517 ..      6249      6534 ..     16343    0.90
+
+  Alignment:
+  score: 95.2 bits
+    ND3   90 tatagatcgagaaaaaatttcacctTttgAaTgtGGatTtgaccctaaaacttcagctcgaattccttTttctttacaatttTttttaattgcaattaTtTT 191 
+              a agat   gaaaaaa+ttcacc TttgAaTgtGGatTt a cc a  ac   agc     t cc tTttctttac  tttTtt+taat  caat aT TT
+  k71_0 6274 AAAAGATTATGAAAAAAGTTCACCATTTGAATGTGGATTTAATCCAATTACAAAAGCAAATTTACCATTTTCTTTACCTTTTTTTCTAATAACAATAATATT 6375
+             2345888889******************************************************************************************** PP
+
+    ND3  192 ttTaatttTtGAtgtaGAaaTtgcttTaattttacctataattattattttaaaaatatcaaatataataatatgaataataattatatttatttttatttt 293 
+             ttTaatttTtGA+gt GAaaTt  ttTa tt+tacc at att tt  t+taaaa +atcaa+ a+aataat t+a    taat at t+ attttt+tt t
+  k71_0 6376 TTTAATTTTTGACGTTGAAATTATTTTATTTCTACCAATTATTTTTTATCTAAAATCATCAAGAACAATAATTTCATATTTAATAATTTCAATTTTTCTTAT 6477
+             *******************************************99999999999***********9999999999988888999999999999999999999 PP
+
+    ND3  294 aattttaatattaggattattttatGAatgaaatcaagga 333 
+               t ttaat      atta ttt  GAatgaa   a    
+  k71_0 6478 CTTATTAATTACCACATTAATTTTAGAATGAATAAATAAT 6517
+             9999999999999999999999999999999877665555 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -0.3  14.0       2.4       171       231 ..      1985      2042 ..      1965      2069 ..     16343    0.60
+
+  Alignment:
+  score: -0.3 bits
+    ND3  171 tTttttaattgcaattaTtTTttTaattt.TtGAtgtaGAaaTtgcttTaattttacctata 231 
+             tTtttt at g  at+   TTttTaatt    GAt t GAaaTtg +tTa      cct ta
+  k71_0 1985 TTTTTTTATAGTTATACCATTTTTAATTGgAGGATTTGGAAATTGGCTTAT----TCCTTTA 2042
+             344445555555566666666666664321235666778888887765543....4444444 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.3  19.8       5.1       284       329 ..      5627      5582 ..      5651      5564 ..     16343    0.81
+
+  Alignment:
+  score: -1.3 bits
+    ND3  284 tttttattttaattttaatattaggattattttatGAatgaaatca 329 
+              t ttat ttaattt aatatt gga  a tt atGAatgaaa  a
+  k71_0 5627 ATGTTATATTAATTTCAATATTTGGAGAAATTGATGAATGAAAAAA 5582
+             3457888899999999999******99999999*****99988665 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.0   4.4       8.4       286       326 ..      4129      4089 ..      4160      4069 ..     16343    0.67
+
+  Alignment:
+  score: -2.0 bits
+    ND3  286 tttattttaattttaatattaggattattttatGAatgaaa 326 
+             t  a tttaat +  a  +  gga    tt+atGAatgaa 
+  k71_0 4129 TCAACTTTAATACCTAAGGATGGAACTGTTCATGAATGAAT 4089
+             44444445555555555555778888888899999998875 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.1   5.2       8.5       141       168 ..      7996      7969 ..      8012      7952 ..     16343    0.81
+
+  Alignment:
+  score: -2.1 bits
+    ND3  141 ttcagctcgaattccttTttctttacaa 168 
+                agc c aattccttTttc   + +a
+  k71_0 7996 AAGAGCACAAATTCCTTTTTCAACTTGA 7969
+             5678899999999999999998766555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (354 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        5  (0.0128)
+# CPU time: 1.92u 0.04s 00:00:01.96 Elapsed: 00:00:01.97
+# Mc/sec: 5.87
+//
+Query:       ND4  [M=1298]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+   5.2e-109  354.6 420.8  k71_0      9784   8655  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+       0.24   -1.8  15.5  k71_0      7787   7744  flag=1 multi=72.2030 len=16343
+          6   -9.7  12.9  k71_0      2964   2987  flag=1 multi=72.2030 len=16343
+          6  -12.1   2.0  k71_0     13895  13909  flag=1 multi=72.2030 len=16343
+          6  -10.7   2.7  k71_0      5332   5319  flag=1 multi=72.2030 len=16343
+          6  -11.5   6.5  k71_0      8590   8579  flag=1 multi=72.2030 len=16343
+          6  -10.3   6.3  k71_0     10898  10883  flag=1 multi=72.2030 len=16343
+          6  -12.2  11.6  k71_0     13757  13742  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  354.6 420.8  5.2e-109       153      1280 ..      9784      8655 ..      9804      8638 ..     16343    0.86
+
+  Alignment:
+  score: 354.6 bits
+    ND4  153 ttcttatggttTaattttattaagtttttgaattttttttttaataattatagctagagaaaaaatttataaaaaaaattattataataatttttttttatt 254 
+             ttc tatgg tT+att tattaa+ttt tgaattttt++ ttaat  ttat  ct  a                  aat+at ata+      tt tttatt
+  k71_0 9784 TTCATATGGATTGATTATATTAACTTTATGAATTTTTGGATTAATTTTTATTTCTTTA------------------AATAATAATAGATTAAATTGTTTATT 9701
+             3789999***************************************999988776654..................33333322222222222333555556 PP
+
+    ND4  255 tattattatttttttattattttttttatttttaactttttctacaataaatttatTtttatttTatatttttTttGAaattagttTaaTtcctattttttt 356 
+             tat a t t+tt tta ta+ttt+tttatt tta+ ttttt   c ataaatttatT+ttatttTat t tttT tGAa tt+gttT+ T    atttttt 
+  k71_0 9700 TATAAATTTATTATTAATAATTTCTTTATTATTAGTTTTTTTATCTATAAATTTATTATTATTTTATTTATTTTATGAATTTGGTTTGTTATTAATTTTTTA 9599
+             6777799999999***************************************************************************************** PP
+
+    ND4  357 ttTaaTtttaggttgaggatatcaacctgAacGttttcaagCtggtattTattTatTatTttatactttatttgctTctttaccttTattaattggtatttt 458 
+             ttTa+Tt+ta   tgagg tat       A cG+t    a Ctgg+ ttTattTa TatTttatac  t+ tt  tTctttacc  Tatta  t  tattt 
+  k71_0 9598 TTTAGTTGTAAAATGAGGTTATAGTGAAAATCGATGATTATCTGGATTTTATTTAATATTTTATACAATGATTTTTTCTTTACCAATATTATATATTATTTA 9497
+             **************************************************************************************9999965555555554 PP
+
+    ND4  459 ttatttttat..aattttattggtactttaaatttt.tatttattaaa.................taatta......tttattttatttttttttaatttta 534 
+             ttat tttat  aatt+   t  ta+ ttaaatttt tat ta ta+a                 t    a        tatt+t t ttt ttta t  ta
+  k71_0 9496 TTATATTTATttAATTG--ATTATAGATTAAATTTTaTAT-TAATAGAgatattaaatttaaattT----AaatataA-TATTATTTATTTATTTATTAATA 9403
+             55555555442233322..223333455555544431222.2222222345555444554433331....12221221.12222222244444555577888 PP
+
+    ND4  535 gcttTtttagttAAaataCCtatattttttgttCAtttaTGatTacctAaaGCtCAtGttgaagCtcctgtttctgGttctATaatttTagCtggtgTttTa 636 
+              c tTttt+gttAAaat CCtat t ttt+ ttCAt   TG+tTa   AaaGCtCAtGttgaagCtcct  tt tgG tc+ATaatttTagCt +  Tt Ta
+  k71_0 9402 TCATTTTTGGTTAAAATTCCTATTTATTTATTTCATGGTTGGTTATTAAAAGCTCATGTTGAAGCTCCTTATTATGGATCAATAATTTTAGCTTCAATTATA 9301
+             8***************************************************************************************************** PP
+
+    ND4  637 tTaAAatTaGGgggttatGGtttaattcgagttttaattttttttttaaaatttag.tataaaatttaatttta......ttttaattagtattagattatt 731 
+             tTaAAatTaGG+gg tatGG  ta t cga t+ taatt tt t t aaaat  a  tat   a tt      +      tttt++t a +atta  t  tt
+  k71_0 9300 TTAAAATTAGGAGGATATGGAATATTACGATTGATAATTATT-TATAAAAATGAATtTATTTTAATT------CaaaaaaTTTTGGTAATAATTAATTCTTT 9206
+             ******************************999888877773.221111111111111111111111......02233338889999999************ PP
+
+    ND4  732 aggaggattttttgttagattaatttgtttacgtcaaattgAtataAAatctttaaTtGCttatTctTctgTtgctCAtAtaggattagttttaggaggttt 833 
+              gg+g  tt+ tt t agattaat tgttta + caa ttgAtataAAatc  t aTtGC   tTc Tct Ttg tCAtAtaggatta t  t   a g  t
+  k71_0 9205 TGGGGTTTTAATTTTAAGATTAATATGTTTATCACAATTTGATATAAAATCAATTATTGCAATTTCATCTATTGTTCATATAGGATTAATAATTATAAGAAT 9104
+             ****************************************************************************************************** PP
+
+    ND4  834 aataactttaaattattgaggatttataggatcttttattataataaTtgctCAtggatTatgtTCttctggttTaTTttgtttagctaatattattTAtga 935 
+             aataacttt     a     gatt at gga++ t t t ataat+aTt ctCAtgg tTa gtTCttc ggttTaTTtt tttag taat+t+attTAt  
+  k71_0 9103 AATAACTTTTTTAAAAATTAGATTAATTGGAGGATATTTAATAATGATTTCTCATGGTTTAAGTTCTTCAGGTTTATTTTTTTTAGTTAATGTAATTTATAG 9002
+             ****************************************************************************************************** PP
+
+    ND4  936 acgatttggtagtcgaagattatttattaataagggtttaataaattttatacctagtttaactttatgatgatttttattatgtttttttAatatagctgc 1037
+             ac a +t  tag cga  a+tatttattaataa+ggt taat aattttatacct +++ta c ttat atgattt t+ttatgtt+ t+ Aatatag+  c
+  k71_0 9001 ACAAACTAATAGACGATTAATATTTATTAATAAAGGTATAATTAATTTTATACCTTCAATATCATTATTATGATTTATGTTATGTTCATCAAATATAGGATC 8900
+             ****************************************************************************************************** PP
+
+    ND4 1038 tCCtccttctttaaatttatttggagAaaTtatattaattattagattaattagttga.t....tttattatatttattttaattttattttcttTttttag 1134
+             tCC   ttctttaaattta tt g gA++Ttatatta t att+g++taatt ++tg+ t    tttat atatt attttaat  tat tt ttT tttag
+  k71_0 8899 TCCAGTTTCTTTAAATTTAATTAGCGAGGTTATATTATTAATTGGGATAATTTCGTGGtTaaaaTTTATAATATTAATTTTAATAATATATTGTTTATTTAG 8798
+             ******************************************************999863467788889999999999**********999999******** PP
+
+    ND4 1135 agctgtttatactttatatttatattcttatactcaacatggtaaattttatttaggtttttattctttttctataggtaatattcgtgaatatttattatt 1236
+             a  t tttat c  t tatttat t   t ta t a catgg aaa ttt t t   +   t t    tt   a  gg a t t + tgaatattt +tatt
+  k71_0 8797 ATTTATTTATTCAATTTATTTATTTATATTTATTAATCATGGAAAAATTTTTATTATG---TTTAAAATTAAAAATGGAATTTTAGTTGAATATTTTGTATT 8699
+             ******************************************7776665443333322...222222222223334777778888***************** PP
+
+    ND4 1237 atttttacattgatttcctttaaattttttaattttaaaaatag 1280
+             att ttacattga ttcctttaaattt  t+ ttttaaaa+t  
+  k71_0 8698 ATTATTACATTGAATTCCTTTAAATTTAATGTTTTTAAAACTTT 8655
+             *********************************99999887554 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.8  15.5      0.24       767       810 ..      7787      7744 ..      7809      7725 ..     16343    0.79
+
+  Alignment:
+  score: -1.8 bits
+    ND4  767 aaattgAtataAAatctttaaTtGCttatTctTctgTtgctCAt 810 
+             aa t+gAt taAAa    t +TtGCttatTct ct T  + CA 
+  k71_0 7787 AATTAGATTTAAAAAAAGTTGTTGCTTATTCTACTTTAAGACAA 7744
+             56789**************************9887777777765 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -9.7  12.9         6      1238      1261 ..      2964      2987 ..      2939      3006 ..     16343    0.59
+
+  Alignment:
+  score: -9.7 bits
+    ND4 1238 tttttacattgatttcctttaaat 1261
+             ttt t cattgat tcc ttaa t
+  k71_0 2964 TTTATTCATTGATATCCATTAATT 2987
+             344556666666666666665544 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?  -12.1   2.0         6       768       782 ..     13895     13909 ..     13886     13926 ..     16343    0.62
+
+  Alignment:
+  score: -12.1 bits
+    ND4   768 aattgAtataAAatc 782  
+              +at gA+ taAAat+
+  k71_0 13895 GATCGACCTAAAATT 13909
+              444444444444433 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?  -10.7   2.7         6       882       895 ..      5332      5319 ..      5337      5297 ..     16343    0.60
+
+  Alignment:
+  score: -10.7 bits
+    ND4  882 tgctCAtggatTat 895 
+             tg+tCA gg +Tat
+  k71_0 5332 TGGTCAAGGTCTAT 5319
+             44444444444433 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?  -11.5   6.5         6       609       620 ..      8590      8579 ..      8597      8557 ..     16343    0.65
+
+  Alignment:
+  score: -11.5 bits
+    ND4  609 tgGttctATaat 620 
+             +gG tc+AT+at
+  k71_0 8590 GGGATCAATGAT 8579
+             444455544443 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?  -10.3   6.3         6       633       648 ..     10898     10883 ..     10919     10879 ..     16343    0.81
+
+  Alignment:
+  score: -10.3 bits
+    ND4   633 ttTatTaAAatTaGGg 648  
+               tTatTaAAatTaGGg
+  k71_0 10898 GTTATTAAAATTAGGG 10883
+              4677888888888886 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?  -12.2  11.6         6       538       553 ..     13757     13742 ..     13770     13730 ..     16343    0.77
+
+  Alignment:
+  score: -12.2 bits
+    ND4   538 tTtttagttAAaataC 553  
+              tTtttagttAAaat C
+  k71_0 13757 TTTTTAGTTAAAATTC 13742
+              5666677777766665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1298 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        8  (0.0389)
+# CPU time: 3.65u 0.16s 00:00:03.81 Elapsed: 00:00:03.81
+# Mc/sec: 11.14
+//
+Query:       ND4L  [M=283]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    2.5e-07   22.8  68.6  k71_0     10183  10028  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        4.1   -0.8   9.8  k71_0      2615   2656  flag=1 multi=72.2030 len=16343
+        7.1   -1.5  10.2  k71_0     11822  11897  flag=1 multi=72.2030 len=16343
+        9.9   -2.0  23.4  k71_0      7818   7730  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   22.8  68.6   2.5e-07        77       243 ..     10183     10028 ..     10201     10004 ..     16343    0.71
+
+  Alignment:
+  score: 22.8 bits
+   ND4L    77 tatttTatTaagatTagaatttattattttaagtttatttttttttttatttttttatttaatttttttgattatgaat......tttatttttttatat 170  
+              t tttTa T   a Tagaattt t++t  t a+t+t tt tttttt+t  tt   t                 atgaa        +t  tt ttt ta+
+  k71_0 10183 TTTTTTAATTTTAATAGAATTTTTAGTAATTACTGTTTTATTTTTTATTATTGGAT-----------------ATGAAAttaataGATGGTTATTTTTAA 10101
+              55555555555667889999999999888877776666555544433322222222.................222211111112466677777788999 PP
+
+   ND4L   171 ttttttTagtttTtattgtttgtgaaggagcttTaGgttTatctaTttTagTttctataattcgtactcatgg 243  
+              ttttttTagt tTt +tgt tgtga+  ag ttTaGgttTatc+ T tTagT   +ataa t  t   c tgg
+  k71_0 10100 TTTTTTTAGTATTTTCTGTATGTGAGTTAGTTTTAGGTTTATCATTATTAGTAAGAATAAATTATGAACTTGG 10028
+              ****************************************************999888776665555555555 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -0.8   9.8       4.1       199       240 ..      2615      2656 ..      2593      2671 ..     16343    0.71
+
+  Alignment:
+  score: -0.8 bits
+   ND4L  199 agcttTaGgttTatctaTttTagTttctataattcgtactca 240 
+             a   tTaGg  T +++ Tt+Tag tt tat +tt g  c ca
+  k71_0 2615 AATATTAGGAATTGGATTTCTAGGTTTTATTGTTTGAGCACA 2656
+             455566677777777777777666666666666666666654 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.5  10.2       7.1       154       217 ..     11822     11897 ..     11805     11916 ..     16343    0.67
+
+  Alignment:
+  score: -1.5 bits
+   ND4L   154 attttatttttttatatttttttTagtttTtattgtt............tgtgaaggagcttTaGgttTatctaTt 217  
+              at++tattt  t+ t +  t tt a+tttT  ++g              t  g agg g   T Gg tTa+ +aT 
+  k71_0 11822 ATGATATTTCCTATTTGCATATTCAATTTTACGAGCAattcctaataaaTTAGGAGGTGTAATCGGATTAGTAATA 11897
+              5556666666666666666666666666666666666555555566666667888999999999998888766655 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -2.0  23.4       9.9        24       103 ..      7818      7730 ..      7835      7709 ..     16343    0.60
+
+  Alignment:
+  score: -2.0 bits
+   ND4L   24 atatttttttttggttttttagtt..tttttt..tttaatcgtaaacatttattaattatttTat..Taagat...Tagaatttattat 103 
+             atatt ttt++tggttt+ t g+   tttt    t  a t   aaa a tt tt+ ttatt+Ta+  Taaga+   Tag atttat+at
+  k71_0 7818 ATATTATTTGCTGGTTTAGTTGCAaaTTTTGAatTAGATTTAAAAAAAGTTGTTGCTTATTCTACttTAAGACaatTAGGATTTATAAT 7730
+             55555566677788877777555544333222112233445556666777888888888888888444555333337777777776665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (283 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        4  (0.0111)
+# CPU time: 2.45u 0.07s 00:00:02.52 Elapsed: 00:00:02.50
+# Mc/sec: 3.70
+//
+Query:       ND5  [M=1685]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+   6.4e-158  517.9 354.8  k71_0      8467   7389  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+       0.28   -1.0  22.0  k71_0      9170   9108  flag=1 multi=72.2030 len=16343
+          8   -5.9  27.5  k71_0      2832   2918  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !  517.9 354.8  6.4e-158        85      1176 ..      8467      7389 ..      8488      7369 ..     16343    0.90
+
+  Alignment:
+  score: 517.9 bits
+    ND5   85 aattttttttattgaatgagaatttttttcttttaattctattaatattgttataacttttttatttgattgaatatctttattatttataagttttgTttt 186 
+             ++  tttttt ttgaatga a  ttt t+c tttaattc at aa+ tt  t t    tt tta ttgatt  a atc tta+tatttat   ttt gTt +
+  k71_0 8467 GGAATTTTTTTTTGAATGAAATATTTATACATTTAATTCAATAAAGTTTAATTTTTTGTTATTAATTGATTATAAATCATTAATATTTATTTTTTTAGTTAG 8366
+             333445667889*******************************999998544466666788889999*********************************** PP
+
+    ND5  187 atttaTttcttctatagTtatttttTatagaaatgatTAtATaga...aggagataaaaatattaatcgaTttatttttttagttttaataTTtgTtttttc 285 
+             a t+aTtt ttctata Ttatt ttTatagaa t + TAtATaga   a g ga   aaa at++atcg Ttt t t ttta t  t  taTTt T  tttc
+  k71_0 8365 AATAATTTTTTCTATAATTATTATTTATAGAATTAGATATATAGAtttAAGTGAATTAAAAATGGATCGTTTTTTATATTTAATAATTTTATTTTTAATTTC 8264
+             *******************************************873335789************************************************** PP
+
+    ND5  286 tATaattttatTaattattagtcctaatttaattagaatttTatTagGtTGaGAtggttTaGGttTagttTCttattgttTagTaattTatTatcaaaatgt 387 
+             tATa  t t+tTaatt t ag cc aat ta t  +aatt T tTagGtTGaGAtggttTaGG tTa ttTCttattgt+T gTaattTatTat  aaa  t
+  k71_0 8263 TATATATATGTTAATTTTAAGACCAAATATATTATCAATTATTTTAGGTTGAGATGGTTTAGGATTAATTTCTTATTGTCTTGTAATTTATTATATAAAAAT 8162
+             ****************************************************************************************************** PP
+
+    ND5  388 aaaatcttataatgctggtatattaACtgtttTatctAAtcGaaTtGGtGAtgttgttaTttTaatatctattgcttgaatattaaattttggtagttgaaa 489 
+             aaaatc t ta+t c ggtata t ACt tttTat  AAtcGa T GG GAt ttg+t T tTa ta  tat g+ t aata +a att+tgg ag tgaaa
+  k71_0 8161 AAAATCATTTACTTCAGGTATAGTTACTATTTTATTAAATCGATTAGGAGATATTGGTTTATTATTAATTATGGGATTAATAACATATTATGGAAGATGAAA 8060
+             ****************************************************************************************************** PP
+
+    ND5  490 ttttattttttatt...tagattttataaaaaatga..taaaatttatttttttttTagttattttagctgctataactAaaAGaGCtCAaattCCtTTttc 586 
+             ttt a tttttat    ta a     t+       a  t a a t+attt t tt       t tt+   gct t actAaaAGaGC CAaattCCtTTttc
+  k71_0 8059 TTTAAGTTTTTATAaaaTAAA-----TG-------AatTTATAATGATTTATATT------TTATTGATAGCTTTTACTAAAAGAGCACAAATTCCTTTTTC 7976
+             *88777777666652211111.....11.......11222222333444333333......344555557999***************************** PP
+
+    ND5  587 tgctTGatTaCCtgcaGCtATagCtGCtCCtACtCCtgTttctgCttTaGTtCAttCtTCtACttTaGTtACtgCtGGggTtTattTattaaTtcgttttaa 688 
+               ctTGatTaCC   aGC ATa  +GCtCC ACtCCtgTttc  CttTaGTtCAttC TC ACttTaGTtACtgCtGG  TtTattTattaaTtcg t t+ 
+  k71_0 7975 AACTTGATTACCAATAGCAATAATAGCTCCAACTCCTGTTTCATCTTTAGTTCATTCATCAACTTTAGTTACTGCTGGAATTTATTTATTAATTCGATATGT 7874
+             ************************************************************************************************998777 PP
+
+    ND5  689 taattttttaattgatattaatttttttaattttttattatttatttctggtttaActatatttatagctggtttaggagctaattttgAatttGAttTaAa 790 
+              aattt+tta+    t ttaatt t   aatt t t  tatt+att+ct g+ttaAc atatt  t gctggtttag  gc aattttgAatt GAttTaAa
+  k71_0 7873 AAATTTATTAGA---TTTTAATTATAAAAATTATATTATATTGATTGCTAGATTAACAATATTATTTGCTGGTTTAGTTGCAAATTTTGAATTAGATTTAAA 7775
+             766666666643...444444444455566667777788899************************************************************ PP
+
+    ND5  791 aaaaaTtaTtGCttTaTCtACttTaagtCAatTaggttTaAtaataataattttatctttaggtttttctaatttagctttttttcAttTattaactCAtGC 892 
+             aaaa+Tt+TtGCtt  TCtACttTaag+CAatTagg tT Ataataa+aat ttatc  t ggtt+  ct+a ttag  ttttt cAttTatt a tCAtGC
+  k71_0 7774 AAAAGTTGTTGCTTATTCTACTTTAAGACAATTAGGATTTATAATAAGAATATTATCAATTGGTTCAACTGAATTAGTATTTTTACATTTATTTATTCATGC 7673
+             ****************************************************************************************************** PP
+
+    ND5  893 tttaTTtAAggctttatTaTTtatatgtgctggttttattaTtcataatataagagattatcAagAtattcgttttataggaggtttaattaattatatacc 994 
+               taTTtAA+ c tta T+TTtatatgtg tggt ++  taT cat atata    +t+atcAagAtattcg  t       ggt ta  t at  t   cc
+  k71_0 7672 AATATTTAAATCATTAATGTTTATATGTGTTGGTAGGTATATACATTATATATATAGTAATCAAGATATTCGAATATATTATGGTATATATTATATTTATCC 7571
+             *************************************************************************777666666677777777777899999** PP
+
+    ND5  995 tttaacttgtttttgttttaatatttctaatttagctttatgtggatttcctTttttagctggaTtttattctAaggAtttaattttagaaattttttttat 1096
+               taa   g  t   ttt a t tttc a ttta   ttatgtgg tttcctTttttag tgg T ttattc Aa+gAtttaatt t gaaat tttttt t
+  k71_0 7570 AATAAAAAGAATAATTTTAATTTTTTCAATTTTAAGATTATGTGGTTTTCCTTTTTTAGTTGGTTATTATTCAAAAGATTTAATTATTGAAATATTTTTTTT 7469
+             *********************************************************************************************999999999 PP
+
+    ND5 1097 aagaaatttaaatttttttattttttttttattttttttttctactggtttaactgtttttTattcttttcgtttaattt 1176
+              agaaa +taa tt tttt +  t  tt   tt  tt tt++tac   ttt actgt t++Tattc tttcg  taattt
+  k71_0 7468 TAGAAAAATAATTTATTTTTCAATAATTAATTTAATTATTGGTACAATTTTTACTGTATCCTATTCATTTCGAATAATTT 7389
+             9999888887776544444444444444445666666788889*****************************99988764 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.0  22.0      0.28       778       840 ..      9170      9108 ..      9178      9088 ..     16343    0.91
+
+  Alignment:
+  score: -1.0 bits
+    ND5  778 AatttGAttTaAaaaaaaTtaTtGCttTaTCtACttTaagtCAatTaggttTaAtaataataa 840 
+             AatttGAt TaAaa  aaTtaTtGC  T TC  Ct T   tCA  Tagg tTaAtaat ataa
+  k71_0 9170 AATTTGATATAAAATCAATTATTGCAATTTCATCTATTGTTCATATAGGATTAATAATTATAA 9108
+             56789**************************************************99987665 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -5.9  27.5         8      1274      1362 ..      2832      2918 ..      2804      2971 ..     16343    0.46
+
+  Alignment:
+  score: -5.9 bits
+    ND5 1274 atttttggaggtagatttttaatttgattaatttttcctaatccttatattattttttta....cctttttttttaaaatttttaattttatt 1362
+             a t+ttgg gg      +ttaa++ ga t at tt  c aat ctt tatt+ t tt t         t+ +t+t a +tt+tt++ + t tt
+  k71_0 2832 ACTATTGGTGG------ATTAACAGGAATTATATTATCAAATTCTTCTATTGATATTATTcttcATGATACATATTACGTTGTTGGACATTTT 2918
+             33344444444......4555666666666666666666655555544433333333222010022222222233344444444443333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (1685 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        3  (0.0376)
+# CPU time: 3.82u 0.20s 00:00:04.01 Elapsed: 00:00:04.01
+# Mc/sec: 13.73
+//
+Query:       ND6  [M=432]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+    2.4e-08   25.4 111.8  k71_0     10634  10933  flag=1 multi=72.2030 len=16343
+  ------ inclusion threshold ------
+        1.8   -0.4   6.1  k71_0     13099  13122  flag=1 multi=72.2030 len=16343
+        2.2   -0.7   6.3  k71_0      2699   2743  flag=1 multi=72.2030 len=16343
+        3.4   -1.4  17.8  k71_0      1985   1994  flag=1 multi=72.2030 len=16343
+        4.1   -1.6  22.9  k71_0      9269   9341  flag=1 multi=72.2030 len=16343
+        4.2   -1.6  21.6  k71_0      2596   2546  flag=1 multi=72.2030 len=16343
+
+
+Annotation for each hit  (and alignments):
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   25.4 111.8   2.4e-08       161       423 ..     10634     10933 ..     10612     10948 ..     16343    0.56
+
+  Alignment:
+  score: 25.4 bits
+    ND6   161 TttTaatttTtttaggaGgaaTatTagTttTatTtattTatataacaagattagcatcaAatgaaatatttaaatt...aaa......ttatttttat.. 249  
+              T  T +tttTttta gaGgaaTatTa+Tt TatTt  tTat t a   +atta  +   Aatgaa++att aaatt   a a      +  tttt  t  
+  k71_0 10634 TAATTGTTTTTTTAAGAGGAATATTAATTATATTTTCTTATTTTATTTCATTAATC---AATGAACCATTAAAATTaaaA-AtaaagcC--TTTTATTca 10727
+              4456689999*******************************************998...*******99999887776540.14444331..222222222 PP
+
+    ND6   250 aataattatattaattatattaataataattttttaaatat....................gaaataatta............................. 300  
+              aa+  t  t ttaattat  t a+aataa       aat+t                    g        a                             
+  k71_0 10728 AACTTTATTTTTAATTATTATTACAATAAA------AATCTataataaattaagacaaaatG--------Aacattactttaattattttaagaatattg 10813
+              222223333333322222222222222221......11111223333333433232222211........123333444454555555554433332222 PP
+
+    ND6   301 ........aataattaattaaattttataatta......tccaacaaatttaattacaat...tttaataattatt....tattTatTttttacttTaat 379  
+                                  a +t tata   a      t             + aca+t   ttt at at att    ta tTa Tt ttac++Taat
+  k71_0 10814 atttaataT-----------ATCTATATATAAAaataaaT------------TCAACACTattTTTTATTATAATTttaaTA-TTAATTATTACCCTAAT 10889
+              222211110...........11111111111111111111............122222221013333333333333211233.566666899******** PP
+
+    ND6   380 tgtagtagtaaaaattactaatatttataaaggacctttacgaa 423  
+              t ta ta +aaa+attac  atatt+a aaa  a ct+tacg a
+  k71_0 10890 TTTAATAACAAAGATTACATATATTGAAAAAAAAACTCTACGTA 10933
+              ***********************9999999999********963 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -0.4   6.1       1.8       403       424 ..     13099     13122 ..     13079     13135 ..     16343    0.71
+
+  Alignment:
+  score: -0.4 bits
+    ND6   403 tttataaaggacctttacgaa..a 424  
+              ttt+ + aggacctttacga   +
+  k71_0 13099 TTTTATTAGGACCTTTACGATccT 13122
+              44455789***********83232 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -0.7   6.3       2.2        86       128 ..      2699      2743 ..      2681      2761 ..     16343    0.76
+
+  Alignment:
+  score: -0.7 bits
+    ND6   86 tattaattca..aactattttaatttgtttaataataggaataat 128 
+             t+tta ttca  aac+at++t att +t ta +aa+aggaat a 
+  k71_0 2699 TTTTACTTCAgcAACAATAATCATTGCTGTACCAACAGGAATTAA 2743
+             445556666677999999999999999999999999999777653 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.4  17.8       3.4       146       156 ..      1985      1994 ..      1922      2021 ..     16343    0.40
+
+  Alignment:
+  score: -1.4 bits
+    ND6  146 tttcttatatt 156 
+             ttt tt tat 
+  k71_0 1985 TTT-TTTTATA 1994
+             111.1111111 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.6  22.9       4.1       347       417 ..      9269      9341 ..      9238      9360 ..     16343    0.70
+
+  Alignment:
+  score: -1.6 bits
+    ND6  347 tttaataattatttattTatTttttacttTa..attgtagtagtaaaaattactaatatttataaaggacctt 417 
+               t +taat  t  at T +T +t+a ttTa  at  t g ag+ aaaatta t+at   ta  aagga ctt
+  k71_0 9269 AATCGTAATATTCCATATCCTCCTAATTTTAatATAATTGAAGCTAAAATTATTGATCCATAATAAGGAGCTT 9341
+             5555666666677666677777777777776224457778888999999999998888888888888887765 PP
+
+>> k71_0  flag=1 multi=72.2030 len=16343
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ ?   -1.6  21.6       4.2       345       395 ..      2596      2546 ..      2701      2526 ..     16343    0.58
+
+  Alignment:
+  score: -1.6 bits
+    ND6  345 attttaataattatttattTatTttttacttTaattgtagtagtaaaaatt 395 
+             +t+  aa aatt  tt ttT + t tt c tT att +a ta  a a+att
+  k71_0 2596 TTACCAAAAATTTCTTTTTTTCCTCTTTCATTTATTACAATATGAGAGATT 2546
+             222222223333333333332222566666666777666666666666555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (432 nodes)
+Target sequences:                            1  (32686 residues searched)
+Residues passing SSV filter:             32686  (1); expected (0.02)
+Residues passing bias filter:            32686  (1); expected (0.02)
+Residues passing Vit filter:             32686  (1); expected (0.003)
+Residues passing Fwd filter:             32686  (1); expected (3e-05)
+Total number of hits:                        6  (0.0154)
+# CPU time: 2.65u 0.06s 00:00:02.71 Elapsed: 00:00:02.71
+# Mc/sec: 5.21
+//
+[ok]

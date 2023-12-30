@@ -1,0 +1,232 @@
+---
+title: "<span style='color: blue; font-size: 32px; font-weight: bold;'>Protocol for Week 1:</span> <span style='color: green; font-size: 32px;'>RNA-Seq Analysis for Breast Cancer</span>"
+output: 
+  html_document:
+    theme: cerulean
+    highlight: tango
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Project Introduction: Week 1 Objectives
+
+In the initial week, we aim to analyze RNA-Seq data from both breast cancer and normal breast tissues. Our objectives are as follows:
+
+1. Align raw reads in **FASTQ** format with the human genome reference, **hg38**.
+
+2. Convert the aligned data into **BAM** format.
+
+3. Count these **BAM** files, utilizing hg38 UCSC-known gene annotations.
+
+4. Perform differential gene expression analysis using ***DESeq2***.
+
+5. Employ ***clusterProfiler*** to pinpoint enriched functions in the genes with altered expression.
+
+The above procedures combined is often what people refer to as a bioinformatics pipeline. By following these widely-accepted steps, we aim for a thorough understanding of the gene expression profiles in our biological samples, in this case the breast cancer.
+
+To understand more technical details and analysis methodologies related to RNA-Seq technique, go visit this [website](https://rnaseq.uoregon.edu/).
+
+## Creating an organized project directory
+
+In bioinformatics, implementing most pipeline steps is usually straightforward. Often, all that's required is to place your input file name or variable name after the command. The real game-changer, however, is setting up an organized file system from the start to boost productivity. A well-structured project directory minimizes resistance to ongoing work and builds confidence for both you and your collaborators.
+
+Please check out the link to the book chapter below for further context:
+
+[Unix and the Terminal Chapter](https://rafalab.dfci.harvard.edu/dsbook/unix.html)
+
+Familiarize yourself with the content covered in Chapter 38 of the book. After that, proceed with the following steps:
+
+Create the project directory as shown below. You can verify its structure by typing `tree ~/BIO215` into the terminal. Then, place Week1-Protocal.Rmd under the `code` folder you've created.
+
+Write and run your code in the following code chunk, then evaluate it in the terminal to create your project directory. Use the tree command to verify the structure. Hint: The essential Linux bash commands for this task are `mkdir` and `mv`.
+
+```{bash}
+## =========== Enter code below to create your project directory =========== ##
+# Your code for creating the directory structure goes here
+## ========================================================================= ##
+tree ~/BIO215  # Check the result
+```
+expected output:
+```plaintext
+/home/YourID/BIO215
+└── project1
+    ├── code
+    │    └── Week1-Protocal.Rmd
+    ├── data
+    └── fig
+```
+## Copy raw read files and align with hisat2
+
+The data we plan to analyze today comes from the NCBI **GEO** database, available in this [data repository](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP407941&o=acc_s%3Aa). Familiarity with the GEO database is valuable, as most researchers in genomics mostly upload to or download data from this resource. Each sequencing samples in GEO is indexed by an unique ID start by "SRR" + integer digits.
+
+Please visit the sample information page on the GEO database. Identify the number of NGS sequencing samples we will analyze, their *experimental designs (e.g., tissue types)*, *SRR IDs*, and *library types*. Next, we'll create a summary table using R and export the annotation table as a CSV file in your data directory. Making this table is essential for organizing and tracking the data used in a bioinformatics study. Hint, R programming language is helpful in creating this table, the R functions helpful at this step can be `c()` and `rep()`. 
+
+```{r}
+## =========== Enter R code below to generate a sample information table ============== ##
+#coldata <- data.frame(srr_id = paste0("SRR2228734",1:8),
+#                      library = ___,
+#                      tissue = ___)
+## =========== Please fill in the ___ in the gapped code examples above =============== ##
+write.csv(coldata, "~/BIO215/project1/data/colData.csv") #Export the data frame as a CSV table on your hard disk
+coldata
+```
+Expected output:
+```plaintext
+       srr_id      library               tissue
+1 SRR22287341 MeRIP-Seq IP Breast cancer tissue
+2 SRR22287342      RNA-Seq Breast cancer tissue
+3 SRR22287343 MeRIP-Seq IP Breast cancer tissue
+4 SRR22287344      RNA-Seq Breast cancer tissue
+5 SRR22287345 MeRIP-Seq IP        Breast tissue
+6 SRR22287346      RNA-Seq        Breast tissue
+7 SRR22287347 MeRIP-Seq IP        Breast tissue
+8 SRR22287348      RNA-Seq        Breast tissue
+```
+
+All eight FASTQ files, which contain raw RNA-Seq reads for each sample, already reside in the `/data/BIO215` directory on the server. Given the substantial size of these initial files (~20GB each), I've subsetted the data to maintain reads only on chromosome 17. This adjustment makes it feasible for 57 people to complete the tasks within a four-hour window.
+
+```{bash}
+#See fastq files I have already downloaded on server under /data/BIO215
+ls -lh /data/BIO215/*
+```
+
+Next, employ `ln -s` to create symbolic links of the FASTQ files in your personal directory. Notice that we use `ln -s` rather than `cp` to avoid consuming extra space; our server's home directory operates on an SSD with a maximum capacity of ~400GB for all users.
+
+Complete the following code chunk to copy "all RNA-Seq data (excluding MeRIP-Seq data)" into your own directory.
+
+```{bash}
+#Use symbolic links to "Copy" RNA-Seq raw read data to your own data directory
+## =========== Enter bash code to create your project directory =========== ##
+# ln -s /data/BIO215/SRR22287342.fastq ~/BIO215/project1/data/SRR22287342.fastq
+# ln -s ___
+# ln -s ___
+# ln -s ___
+## ======Please fill in the ___ in the gapped code examples above========== ##
+tree ~/BIO215 #Check the results
+```
+expected output:
+```plaintext
+/home/YourID/BIO215
+└── project1
+    ├── code
+    │    └── Week1-Protocal.Rmd
+    ├── data
+    │    ├── colData.csv
+    │    ├── SRR22287342.fastq
+    │    ├── SRR22287344.fastq
+    │    ├── SRR22287346.fastq
+    │    ├── SRR22287348.fastq
+    └── fig
+```
+
+In the following step, we'll use the read genome aligner, **Hisat2**, to map the raw reads from all the FASTQ files you've just copied to the human reference genome, **hg38**. Hisat2 is a Linux bash tool already installed on our server. You can execute Hisat2 commands in a bash terminal or code chunk using the following syntax:
+
+`hisat2 -x /path/to/genome_index -U sample_reads.fastq -S sample_aligned.sam`
+
+For detailed documentation on any linux bash command, use `command_name + -h/--help` in the terminal. You can also consult the Hisat2 online manual [here](https://daehwankimlab.github.io/hisat2/manual/). Note that the genome index has been already built under the directory `/data/genome_indx/genome_hg38` on the server, you can directly use it without the need to download or re-build.
+
+Hisat2 generates genome alignments in the SAM format, a tabular file showing how reads align to the genome. Given the large size of SAM files, it's essential to compress them into BAM files, the binary equivalent. Note that Hisat2 doesn't automatically export to BAM. To save space on our SSD home directory, we need to convert the SAM output to BAM using samtools after the alignment completes.
+
+To convert a SAM file to a BAM file, run the `samtools view` command as demonstrated below. **Afterwards, remove the SAM file with the `rm` command to save space.** This is very important as otherwise do not proceed to align the next file. 
+
+```plaintext
+samtools view -Sb input.sam > output.bam
+rm input.sam
+```
+- `input.sam`: The SAM file you want to convert.
+
+- `output.bam`: The name you want to give to the output BAM file.
+
+The -S flag indicates the input is in SAM format, while the -b flag specifies that the output should be in BAM format.
+
+```{bash}
+#Set your working directory to the data file
+cd ~/BIO215/project1/data
+## =========== Enter bash code to align fastq files to the hg38 genome =========== ##
+# hisat2 ___
+# samtools ___
+# rm ___
+# hisat2 ___
+# ___
+## ======Please fill in the ___ in the gapped code examples above ================ ##
+```
+
+## Count your BAM files over genes with SummarizeOverlaps
+
+Subsequently, we'll use Bioconductor packages in R to examine read alignment outcomes. The initial phase in statistical analysis of genomics data often involves counting reads from aligned BAM files against gene features. In the realm of gene expression analysis, "read count" refers to the tally of reads overlapping each gene, as defined in gene annotation. This read count is an effective summarization method that neatly compresses large data sets.
+
+In this lab, we'll employ the `summarizeOverlaps()` function from the `GenomicAlignments` package to count reads across genes defined in the hg38 genome by UCSC. We'll source the gene annotations from the `TxDb.Hsapiens.UCSC.hg38.knownGene` package, commonly referred to as TxDb, which is widely used in R-based genomic analyses.
+
+To better grasp the procedure, complete the missing sections in the R code chunks below to enable read counting over the identified gene features. Please evaluate the codes line by line and have patient. When ever have problems related to the usage of a particular R function, use `? + function_name()` to access to the detailed documentation of that R function.
+
+```{r}
+#Load necessary libraries
+library(GenomicAlignments) #For read count
+library(TxDb.Hsapiens.UCSC.hg38.knownGene) #Gene annotations
+library(org.Hs.eg.db) #For gene ID conversion
+#Extract genomic ranges for genes in human genome hg38
+features <- genes(TxDb.Hsapiens.UCSC.hg38.knownGene)
+#Convert the ENTREZ gene ID in gene features into gene symbol, which is more readable
+names(features) <- AnnotationDbi::select(org.Hs.eg.db, names(features), "SYMBOL", "ENTREZID")$SYMBOL
+## =========== Enter R code below to perform read count over gene features =========== ##
+#data_dir <- "~/BIO215/project1/data"
+#bams <- BamFileList(file.path(___, ___)) #creating BamFileList object
+#count_se <- summarizeOverlaps(___, ___)
+## ======Please fill in the ___ in the gaps ========================================== ##
+count_se <- count_se[rowSums(assay(count_se) >= 10) > 1,] #Filter out genes with too many missing values
+head(assay(count_se)) #Check the read count matrix 
+#Clear features object to release memory
+rm(features)
+gc()
+```
+
+## Differential gene expression analysis and free data exploration
+
+The read count output generated by the `summarizeOverlaps()` function in R is a SummarizedExperiment object. This object type is incredibly useful for omics level study, offering a concise and organized summary of omic experiments. In fact, many high-level R tools for data analysis rely on this object type or its derivatives as input. To proceed, we'll analyze the SummarizedExperiment object by finding differential gene expression between cancerous and normal conditions with the DESeq2 package. To fully understand how to use DESeq2, consult its package vignette by running `browseVignettes("DESeq2")`.
+
+Specifically, you'll use the read counts stored in the `count_se` variable we generated in the last step to identify genes that are **differentially expressed** using DESeq2. Set your threshold for significance at an **adjusted p-value (padj)** of less than 0.05. Next, extract the normalized gene expression profile using `assay(rlog(dds))`. You can visualize the normalized gene expression data with various R graphic tools, such as `pheatmap::pheatmap()`.
+
+Following this, we would like to examine the expression of two key genes related to breast cancer, **TP53** and **BRCA1**, employ the `plotCounts()` function provided by DESeq2. Consider which of these genes act as tumor suppressors and which are oncogenes. Do the directions of their expression changes align with what you would expect? Are the changes in gene expression levels of these two genes statistically significant under padj < 0.05?
+
+Proceeding further, you need to freely explore gene expression profiles further using other visualization techniques. For instance, you can use `plotPCA()` to visualize the relationships between samples in a 2D plane. `plotMA()` is valuable for assessing the relationship between effect sizes of gene expression changes and mean expression levels. If you're interested in understanding the underlying statistics, `plotDispEsts()` will help you explore the mean-dispersion relationship crucial to DESeq2's statistical modeling. To understand a comprehensive range of analysis perspectives and specialized R packages for RNA-Seq, visit [this website](https://github.com/crazyhottommy/RNA-seq-analysis).
+
+```{r}
+library(DESeq2)
+## =========== Enter code below for differential gene analysis and free exploration =========== ##
+# Write your code here
+## ============================================================================================ ##
+```
+
+## See what functions are enriched For DEGs using clusterProfiler
+
+The visualization techniques we've employed so far only idendified which group of genes are differentially expressed, but it does not reveal the functions of the differentially expressed genes. To gain this information, we will use the `clusterProfiler` package available in Bioconductor. This package provides statistical analysis to pinpoint significantly enriched functional terms. Complete the code chunk below to explore the enriched Gene Ontology (see this [link](http://geneontology.org/)) terms for all differentially expressed genes with a padj cutoff value less than 0.05. You can visualize the enrichment results using these three functions:
+
+- `barplot()`: For an overview of top categories
+- `dotplot()`: For a detailed view
+- `cnetplot()`: To display a network of enriched categories
+
+```{r}
+res_significant <- subset(res, padj < 0.05)
+gene_vector <- res_significant$log2FoldChange
+names(gene_vector) <- rownames(res_significant)
+
+library(clusterProfiler)
+## =========== Enter R code below to perform GO enrichment analysis =========== ##
+#ego <- enrichGO(___)
+#___
+## ======Please fill in the ___ in the gaps =================================== ##
+```
+
+Finally, choose high-quality, convincing figures generated in the last two steps and save them in the `fig` directory. In the RStudio server, you can export these figures by navigating to the lower right panel, selecting Plots > Export > Save as PDF.
+
+```{r}
+sessionInfo()
+```
+

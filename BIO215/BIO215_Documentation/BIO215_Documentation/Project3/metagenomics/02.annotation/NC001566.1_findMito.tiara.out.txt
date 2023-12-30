@@ -1,0 +1,2 @@
+sequence_id	class_fst_stage	class_snd_stage	org	bac	arc	euk	unk1	pla	unk2	mit
+k71_0 flag=1 multi=72.2030 len=16343	organelle	mitochondrion	0.977858	0.000000	0.000000	0.022142	0.000000	0.000000	0.000000	1.000000

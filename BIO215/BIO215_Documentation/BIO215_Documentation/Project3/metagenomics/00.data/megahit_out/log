@@ -1,0 +1,337 @@
+2023-11-14 10:06:11 - MEGAHIT v1.2.9
+2023-11-14 10:06:11 - Using megahit_core with POPCNT and BMI2 support
+2023-11-14 10:06:11 - Convert reads to binary library
+2023-11-14 10:06:11 - command /data/anaconda3/bin/megahit_core buildlib /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib
+2023-11-14 10:06:11 - INFO  sequence/io/sequence_lib.cpp  :   75 - Lib 0 (/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R1.fq.gz,/home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/NC001566.1.clean.R2.fq.gz): pe, 10350 reads, 150 max length
+2023-11-14 10:06:11 - INFO  utils/utils.h                 :  152 - Real: 0.0304	user: 0.0233	sys: 0.0000	maxrss: 6852
+2023-11-14 10:06:11 - Start assembly. Number of CPU threads 1 
+2023-11-14 10:06:11 - k list: 31,51,71 
+2023-11-14 10:06:11 - Memory used: 107701813248
+2023-11-14 10:06:11 - Extract solid (k+1)-mers for k = 31 
+2023-11-14 10:06:11 - command /data/anaconda3/bin/megahit_core count -k 31 -m 2 --host_mem 1.07701813248e+11 --mem_flag 1 --output_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k31/31 --num_cpu_threads 1 --read_lib_file /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2023-11-14 10:06:11 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 470936
+2023-11-14 10:06:11 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 470936
+2023-11-14 10:06:11 - INFO  sorting/kmer_counter.cpp      :   76 - 10350 reads, 150 max read length
+2023-11-14 10:06:11 - INFO  sorting/kmer_counter.cpp      :   82 - 2 words per substring, 3 words per edge
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.0041
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 1227192 bytes
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 164220, Lv2 items: 6148
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 1090184, Memory for Lv1+Lv2: 755248
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 0.0765
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 47
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0476
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0280
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 47 to 147
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0258
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0193
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 147 to 433
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0366
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0293
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 433 to 1007
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0261
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0236
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 1007 to 2091
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0407
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0323
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2091 to 4212
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0255
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0276
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 4212 to 65536
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0406
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0199
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 0.4241
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2023-11-14 10:06:11 - INFO  sorting/kmer_counter.cpp      :  405 - Total number of candidate reads: 0 (6)
+2023-11-14 10:06:11 - INFO  sorting/kmer_counter.cpp      :  407 - Total number of solid edges: 16711
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.0248
+2023-11-14 10:06:11 - INFO  utils/utils.h                 :  152 - Real: 0.5309	user: 3.0917	sys: 0.0202	maxrss: 11796
+2023-11-14 10:06:11 - Build graph for k = 31 
+2023-11-14 10:06:11 - command /data/anaconda3/bin/megahit_core seq2sdbg --host_mem 1.07701813248e+11 --mem_flag 1 --output_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k31/31 --num_cpu_threads 1 -k 31 --kmer_from 0 --input_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k31/31
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 16711
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 534752, number contigs: 0, number multiplicity: 16711
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 133696, multiplicity vector: 16711
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 16711 edges.
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 133696/16711/534752, multiplicity vector: 16711/16711
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 133696/16711/534752, multiplicity vector: 16711/16711
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.0902
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 178850 bytes
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 13368, Lv2 items: 365
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 171326, Memory for Lv1+Lv2: 57852
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 0.0508
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 72
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0238
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0164
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 72 to 184
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0009
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0018
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 184 to 489
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0009
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0019
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 489 to 1177
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0008
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0018
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 1177 to 2417
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0008
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0019
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2417 to 5008
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0008
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0020
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 5008 to 9826
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0008
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0019
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 9826 to 65536
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0006
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0012
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 0.0596
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 20 14178 2531 2538 14163 14 1 1 13
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 33459
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 33410
+2023-11-14 10:06:11 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 20
+2023-11-14 10:06:11 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.0518
+2023-11-14 10:06:11 - INFO  utils/utils.h                 :  152 - Real: 0.2541	user: 2.1906	sys: 0.0240	maxrss: 27964
+2023-11-14 10:06:11 - Assemble contigs from SdBG for k = 31
+2023-11-14 10:06:11 - command /data/anaconda3/bin/megahit_core assemble -s /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k31/31 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31 -t 1 --min_standalone 212 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k31/31Done. Time elapsed: 0.086590
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  133 - Number of Edges: 33459; K value: 31
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 1
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 2; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 4; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 18; time elapsed: 0.0003
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 32; time elapsed: 0.0003
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 62; Accumulated tips removed: 32; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 0.006
+2023-11-14 10:06:12 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 24, palindrome: 3
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  166 - unitig graph size: 24, time for building: 0.014
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 5341, Min: 32, N50: 3462, number contigs: 24, number isolated: 0, number looped: 0, total size: 17207,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 5, Time elapsed(sec): 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.000011
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 2
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  192 - Tips removed: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.000008
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 14614, Min: 32, N50: 14614, number contigs: 9, number isolated: 0, number looped: 0, total size: 16582,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  267 - Time to output: 0.004023
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.000060
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 14614, Min: 32, N50: 14614, number contigs: 9, number isolated: 0, number looped: 0, total size: 16582,
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.1152	user: 0.1104	sys: 0.0079	maxrss: 22988
+2023-11-14 10:06:12 - Local assembly for k = 31
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core local -c /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.contigs.fa -l /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib -t 1 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.local.fa --kmax 51
+2023-11-14 10:06:12 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 3, index size: 2037
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 0.000595
+2023-11-14 10:06:12 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 470936
+2023-11-14 10:06:12 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 470936
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 0.001640
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 150.00 sd: 0.90
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 0.038815
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 10350 reads, aligned 10350, added 74 reads to local assembly
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 0.036338
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 1
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 0.029450
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.1071	user: 0.1078	sys: 0.0040	maxrss: 6868
+2023-11-14 10:06:12 - Extract iterative edges from k = 31 to 51 
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core iterate -c /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.contigs.fa -b /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.bubble_seq.fa -t 1 -k 31 -s 20 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k51/51 -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib.bin
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 8
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  174 - Read 9 contigs
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  176 - Number of flank kmers: 9
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 16
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  138 - Processed: 10350, aligned: 121. Iterative edges: 6
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  142 - Total: 10350, aligned: 121. Iterative edges: 6
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.0470	user: 0.0503	sys: 0.0000	maxrss: 6868
+2023-11-14 10:06:12 - Build graph for k = 51 
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core seq2sdbg --host_mem 1.07701813248e+11 --mem_flag 1 --output_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k51/51 --num_cpu_threads 1 -k 51 --kmer_from 31 --input_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k51/51 --addi_contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.addi.fa --local_contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.local.fa --contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.contigs.fa --bubble /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.bubble_seq.fa
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 6
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 990, number contigs: 11, number multiplicity: 17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 344, multiplicity vector: 17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 6 edges.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 344/6/312, multiplicity vector: 6/17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 3 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.contigs.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 8032/9/16702, multiplicity vector: 9/17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 0 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.bubble_seq.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 8032/9/16702, multiplicity vector: 9/17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 0 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.addi.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 8032/9/16702, multiplicity vector: 9/17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 2 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k31.local.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 8032/11/17128, multiplicity vector: 11/17
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 8032/11/17128, multiplicity vector: 11/17
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.0065
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 11970 bytes
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 4423, Lv2 items: 169
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 8226, Memory for Lv1+Lv2: 20396
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 0.0644
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 70
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0255
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0007
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 70 to 187
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0007
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 187 to 524
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0007
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 524 to 1315
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0008
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 1315 to 2844
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0009
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 2844 to 6490
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0013
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 6490 to 65536
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0006
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0022
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 0.0381
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 4 13790 2471 2471 13800 0 0 0 0
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 32536
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 32532
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 4
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.0681
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.1793	user: 2.3296	sys: 0.0242	maxrss: 27348
+2023-11-14 10:06:12 - Assemble contigs from SdBG for k = 51
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core assemble -s /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k51/51 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51 -t 1 --min_standalone 212 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k51/51Done. Time elapsed: 0.069181
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  133 - Number of Edges: 32536; K value: 51
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 1
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 0; time elapsed: 0.0003
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 102; Accumulated tips removed: 0; time elapsed: 0.0003
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 0.006
+2023-11-14 10:06:12 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 2, palindrome: 0
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  166 - unitig graph size: 2, time for building: 0.013
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 14617, Min: 1749, N50: 14617, number contigs: 2, number isolated: 2, number looped: 0, total size: 16366,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.000006
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 14617, Min: 1749, N50: 14617, number contigs: 2, number isolated: 2, number looped: 0, total size: 16366,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  267 - Time to output: 0.004005
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.000008
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 14617, Min: 1749, N50: 14617, number contigs: 2, number isolated: 2, number looped: 0, total size: 16366,
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.0977	user: 0.0893	sys: 0.0155	maxrss: 23028
+2023-11-14 10:06:12 - Local assembly for k = 51
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core local -c /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.contigs.fa -l /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib -t 1 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.local.fa --kmax 71
+2023-11-14 10:06:12 - INFO  localasm/hash_mapper.cpp      :   99 - Number of contigs: 2, index size: 2039
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  315 - Hash mapper construction time elapsed: 0.000330
+2023-11-14 10:06:12 - INFO  sequence/io/sequence_lib.cpp  :  115 - Before reading, sizeof seq_package: 470936
+2023-11-14 10:06:12 - INFO  sequence/io/sequence_lib.cpp  :  117 - After reading, sizeof seq_package: 470936
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  324 - Read lib time elapsed: 0.001034
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  133 - Lib 0, insert size: 150.00 sd: 0.00
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  330 - Insert size estimation time elapsed: 0.034126
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  218 - Lib 0: total 10350 reads, aligned 10350, added 40 reads to local assembly
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  338 - Mapping time elapsed: 0.036312
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  232 - Minimum number of reads to do local assembly: 1
+2023-11-14 10:06:12 - INFO  localasm/local_assemble.cpp   :  346 - Local assembly time elapsed: 0.005886
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.0778	user: 0.0808	sys: 0.0000	maxrss: 6868
+2023-11-14 10:06:12 - Extract iterative edges from k = 51 to 71 
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core iterate -c /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.contigs.fa -b /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.bubble_seq.fa -t 1 -k 51 -s 20 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k71/71 -r /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/reads.lib.bin
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  190 - Selected kmer type size for k: 16
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  123 - Selected kmer type size for next k: 20
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  138 - Processed: 10350, aligned: 0. Iterative edges: 0
+2023-11-14 10:06:12 - INFO  main_iterate.cpp              :  142 - Total: 10350, aligned: 0. Iterative edges: 0
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.0392	user: 0.0379	sys: 0.0076	maxrss: 6868
+2023-11-14 10:06:12 - Build graph for k = 71 
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core seq2sdbg --host_mem 1.07701813248e+11 --mem_flag 1 --output_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k71/71 --num_cpu_threads 1 -k 71 --kmer_from 51 --input_prefix /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k71/71 --addi_contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.addi.fa --local_contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.local.fa --contig /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.contigs.fa --bubble /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.bubble_seq.fa
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  148 - Preparing data...
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  369 - Number edges: 0
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  413 - Bases to reserve: 474, number contigs: 4, number multiplicity: 4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  421 - Before reading, sizeof seq_package: 160, multiplicity vector: 4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  428 - Read 0 edges.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  429 - After reading, sizeof seq_package: 160/0/0, multiplicity vector: 0/4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  458 - Read 2 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.contigs.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  459 - After reading contigs, sizeof seq_package: 7720/2/16366, multiplicity vector: 2/4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  470 - Read 0 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.bubble_seq.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  471 - After reading contigs, sizeof seq_package: 7720/2/16366, multiplicity vector: 2/4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  484 - Read 0 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.addi.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  485 - After reading contigs, sizeof seq_package: 7720/2/16366, multiplicity vector: 2/4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  498 - Read 2 contigs from /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k51.local.fa.
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  499 - After reading contigs, sizeof seq_package: 7720/4/16784, multiplicity vector: 4/4
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  506 - Finally, sizeof seq_package: 7720/4/16784, multiplicity vector: 4/4
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  153 - Preparing data... Done. Time elapsed: 0.0064
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  156 - Preparing partitions and calculating bucket sizes...
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :   80 - Minimum memory required: 13024 bytes
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  138 - Lv1 items: 4402, Lv2 items: 171
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  139 - Memory of derived class: 7888, Memory for Lv1+Lv2: 21712
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  165 - Preparing partitions and calculating bucket sizes... Done. Time elapsed: 0.0749
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  172 - Start main loop...
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 0 to 70
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0149
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0008
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 70 to 195
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0008
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 195 to 600
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0008
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 600 to 1510
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0012
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 1510 to 3471
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0011
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 3471 to 8067
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0004
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0015
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  185 - Lv1 scanning from bucket 8067 to 65536
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  192 - Lv1 scanning done. Large diff: 0. Time elapsed: 0.0005
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  198 - Lv1 fetching & sorting done. Time elapsed: 0.0017
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  204 - Main loop done. Time elapsed: 0.0280
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  207 - Postprocessing...
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  793 - Number of $ A C G T A- C- G- T-:
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  794 - 2 13800 2473 2469 13804 0 0 0 0
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  800 - Total number of edges: 32548
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  801 - Total number of ONEs: 32546
+2023-11-14 10:06:12 - INFO  sorting/seq_to_sdbg.cpp       :  802 - Total number of $v edges: 2
+2023-11-14 10:06:12 - INFO  sorting/base_engine.cpp       :  210 - Postprocess done. Time elapsed: 0.0559
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.1673	user: 2.2976	sys: 0.0324	maxrss: 27176
+2023-11-14 10:06:12 - Assemble contigs from SdBG for k = 71
+2023-11-14 10:06:12 - command /data/anaconda3/bin/megahit_core assemble -s /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k71/71 -o /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_out/intermediate_contigs/k71 -t 1 --min_standalone 212 --prune_level 2 --merge_len 20 --merge_similar 0.95 --cleaning_rounds 5 --disconnect_ratio 0.1 --low_local_ratio 0.2 --cleaning_rounds 5 --min_depth 2 --bubble_level 2 --max_tip_len -1 --is_final_round
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  129 - Loading succinct de Bruijn graph: /home/jiaming.huang21/redo/BIO215/project3.1/metagenomics/00.data/megahit_tmp_fm7yak/k71/71Done. Time elapsed: 0.067668
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  133 - Number of Edges: 32548; K value: 71
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  140 - Number of CPU threads: 1
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 32; Accumulated tips removed: 0; time elapsed: 0.0001
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 64; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  160 - Removing tips with length less than 128; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  assembly/sdbg_pruning.cpp     :  169 - Removing tips with length less than 142; Accumulated tips removed: 0; time elapsed: 0.0002
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  158 - Tips removal done! Time elapsed(sec): 0.006
+2023-11-14 10:06:12 - INFO  assembly/unitig_graph.cpp     :   83 - Graph size without loops: 1, palindrome: 0
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  166 - unitig graph size: 1, time for building: 0.012
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 16343, Min: 16343, N50: 16343, number contigs: 1, number isolated: 1, number looped: 0, total size: 16343,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  184 - Graph cleaning round 1
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  200 - Number of bubbles removed: 0, Time elapsed(sec): 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  210 - Number of complex bubbles removed: 0, Time elapsed(sec): 0.000006
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  221 - Number unitigs disconnected: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  245 - Unitigs removed in excessive pruning: 0, time: 0.000
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 16343, Min: 16343, N50: 16343, number contigs: 1, number isolated: 1, number looped: 0, total size: 16343,
+2023-11-14 10:06:12 - INFO  main_assemble.cpp             :  286 - Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.000007
+2023-11-14 10:06:12 - INFO  assembly/contig_stat.h        :   40 - Max: 16343, Min: 16343, N50: 16343, number contigs: 1, number isolated: 1, number looped: 0, total size: 16343,
+2023-11-14 10:06:12 - INFO  utils/utils.h                 :  152 - Real: 0.0905	user: 0.0761	sys: 0.0200	maxrss: 22980
+2023-11-14 10:06:12 - Merging to output final contigs 
+2023-11-14 10:06:12 - 1 contigs, total 16343 bp, min 16343 bp, max 16343 bp, avg 16343 bp, N50 16343 bp
+2023-11-14 10:06:12 - ALL DONE. Time elapsed: 1.858054 seconds 

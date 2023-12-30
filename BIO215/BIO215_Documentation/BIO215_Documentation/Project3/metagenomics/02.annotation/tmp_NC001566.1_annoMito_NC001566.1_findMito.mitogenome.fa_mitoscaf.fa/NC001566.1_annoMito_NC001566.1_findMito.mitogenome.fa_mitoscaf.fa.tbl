@@ -1,0 +1,154 @@
+>Feature k71_0
+502	1503	gene
+			gene	ND2
+502	1503	CDS
+			product	NADH dehydrogenase subunit 2
+			transl_table	5
+1794	3359	gene
+			gene	COX1
+1794	3359	CDS
+			product	cytochrome c oxidase subunit I
+			transl_table	5
+3618	4295	gene
+			gene	COX2
+3618	4295	CDS
+			product	cytochrome c oxidase subunit II
+			transl_table	5
+4444	4602	gene
+			gene	ATP8
+4444	4602	CDS
+			product	ATP synthase F0 subunit 8
+			transl_table	5
+4584	5264	gene
+			gene	ATP6
+4584	5264	CDS
+			product	ATP synthase F0 subunit 6
+			transl_table	5
+5285	6064	gene
+			gene	COX3
+5285	6064	CDS
+			product	cytochrome c oxidase subunit III
+			transl_table	5
+6185	6538	gene
+			gene	ND3
+6185	6538	CDS
+			product	NADH dehydrogenase subunit 3
+			transl_table	5
+8556	6892	gene
+			gene	ND5
+8556	6892	CDS
+			product	NADH dehydrogenase subunit 5
+			transl_table	5
+9954	8644	gene
+			gene	ND4
+9954	8644	CDS
+			product	NADH dehydrogenase subunit 4
+			transl_table	5
+10254	9991	gene
+			gene	ND4L
+10254	9991	CDS
+			product	NADH dehydrogenase subunit 4L
+			transl_table	5
+10441	10944	gene
+			gene	ND6
+10441	10944	CDS
+			product	NADH dehydrogenase subunit 6
+			transl_table	5
+11004	12155	gene
+			gene	CYTB
+11004	12155	CDS
+			product	cytochrome b
+			transl_table	5
+13219	12302	gene
+			gene	ND1
+13219	12302	CDS
+			product	NADH dehydrogenase subunit 1
+			transl_table	5
+1	66	gene
+			gene	trnE(uuc)
+1	66	tRNA
+			product	tRNA-Glu
+117	177	gene
+			gene	trnS(ucu)
+117	177	tRNA
+			product	tRNA-Ser
+221	286	gene
+			gene	trnM(cau)
+221	286	tRNA
+			product	tRNA-Met
+296	358	gene
+			gene	trnQ(uug)
+296	358	tRNA
+			product	tRNA-Gln
+360	429	gene
+			gene	trnA(ugc)
+360	429	tRNA
+			product	tRNA-Ala
+433	501	gene
+			gene	trnI(gau)
+433	501	tRNA
+			product	tRNA-Ile
+1571	1503	gene
+			gene	trnC(gca)
+1571	1503	tRNA
+			product	tRNA-Cys
+1722	1793	gene
+			gene	trnW(uca)
+1722	1793	tRNA
+			product	tRNA-Trp
+3355	3424	gene
+			gene	trnL(uaa)
+3355	3424	tRNA
+			product	tRNA-Leu
+4294	4362	gene
+			gene	trnD(guc)
+4294	4362	tRNA
+			product	tRNA-Asp
+4370	4438	gene
+			gene	trnK(uuu)
+4370	4438	tRNA
+			product	tRNA-Lys
+6119	6184	gene
+			gene	trnG(ucc)
+6119	6184	tRNA
+			product	tRNA-Gly
+6638	6572	gene
+			gene	trnR(ucg)
+6638	6572	tRNA
+			product	tRNA-Arg
+6734	6802	gene
+			gene	trnN(guu)
+6734	6802	tRNA
+			product	tRNA-Asn
+6878	6810	gene
+			gene	trnF(gaa)
+6878	6810	tRNA
+			product	tRNA-Phe
+8624	8557	gene
+			gene	trnH(gug)
+8624	8557	tRNA
+			product	tRNA-His
+10432	10364	gene
+			gene	trnP(ugg)
+10432	10364	tRNA
+			product	tRNA-Pro
+12201	12267	gene
+			gene	trnS(uga)
+12201	12267	tRNA
+			product	tRNA-Ser
+13290	13220	gene
+			gene	trnL(uag)
+13290	13220	tRNA
+			product	tRNA-Leu
+14731	14662	gene
+			gene	trnV(uac)
+14731	14662	tRNA
+			product	tRNA-Val
+15538	14729	gene
+			gene	s-rRNA
+15538	14729	rRNA
+			product	12S ribosomal RNA
+14599	13268	gene
+			gene	l-rRNA
+14599	13268	rRNA
+			product	16S ribosomal RNA

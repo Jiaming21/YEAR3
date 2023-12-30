@@ -1,0 +1,60 @@
+RSZAXPI00143389_Andrena_flavipes: 0/4365	Percentage:0	Depth:nan
+RSZAXPI001581109_Andrena_dorsata: 103/4479	Percentage:2.3	Depth:1.9
+RSZAXPI00160922_Andrena_fulva: 100/4524	Percentage:2.2	Depth:1
+gi_5834927_Apis_mellifera_ligustica: 100/4374	Percentage:2.3	Depth:1
+RSZAXPI001577105_Andrena_bicolor: 649/4473	Percentage:15	Depth:3.5
+RSZAXPI00161811_Andrena_labiata: 545/4578	Percentage:12	Depth:2.6
+RSZAXPI00145487_Andrena_chrysosceles: 4465/4486	Percentage:1e+02	Depth:45
+RSZAXPI00160720_Lasioglossum_laevigatum: 0/4554	Percentage:0	Depth:nan
+RSZAXPI00161634_Lasioglossum_punctatissimum: 200/4371	Percentage:4.6	Depth:1
+RSZAXPI00161327_Lasioglossum_villosulum: 200/4077	Percentage:4.9	Depth:1
+RSZAXPI00160518_Andrena_semilaevis: 100/4389	Percentage:2.3	Depth:1
+RSZAXPI00162012_Andrena_cineraria: 401/4488	Percentage:8.9	Depth:1.2
+RSZAXPI001584123_Andrena_angustior: 420/4461	Percentage:9.4	Depth:1.2
+RSZAXPI001585129_Halictus_rubicundus: 200/4887	Percentage:4.1	Depth:1
+RSZAXPI00143594_Bombus_pratorum: 0/3934	Percentage:0	Depth:nan
+RSZAXPI001579107_Lasioglossum_fulvicorne: 200/4770	Percentage:4.2	Depth:1
+RSZAXPI00161226_Hylaeus_dilatatus: 0/4503	Percentage:0	Depth:nan
+gi_221143402_Bombus_hypocrita_sapporensis: 0/4270	Percentage:0	Depth:nan
+RSZAXPI00143190_Bombus_hortorum: 0/4422	Percentage:0	Depth:nan
+RSZAXPI00160821_Nomada_flavoguttata: 0/4482	Percentage:0	Depth:nan
+RSZAXPI00161533_Sphecodes_miniatus: 4372/4701	Percentage:93	Depth:9
+RSZAXPI0014329993_Bombus_terrestris: 0/4392	Percentage:0	Depth:nan
+wHAXPI00078125_Lasioglossum_leucopus: 0/4583	Percentage:0	Depth:nan
+RSZAXPI001601158_Halictus_tumulorum: 200/4779	Percentage:4.2	Depth:1
+RSZAXPI00142885_Bombus_lapidarius: 0/4386	Percentage:0	Depth:nan
+RSZAXPI00142695_Bombus_lucorum: 100/4353	Percentage:2.3	Depth:1
+RSZAXPI001599140_Lasioglossum_minutissimum: 3379/4890	Percentage:69	Depth:2
+RSZAXPI001575102_Andrena_nigroaenea: 4360/4365	Percentage:1e+02	Depth:70
+RSZAXPI001583113_Lasioglossum_parvulum: 4093/4423	Percentage:93	Depth:6
+RSZAXPI001578106_Andrena_minutula: 4298/4512	Percentage:95	Depth:5
+RSZAXPI00160417_Andrena_subopaca: 177/4425	Percentage:4	Depth:9.6
+RSZAXPI00161125_Nomada_fabriciana: 1459/4459	Percentage:33	Depth:1.2
+RSZAXPI00142998_Bombus_sylvestris: 0/4437	Percentage:0	Depth:nan
+RSZAXPI00160316_Nomada_ruficornis: 0/4548	Percentage:0	Depth:nan
+gi_190349386_Bombus_ignitus: 0/4280	Percentage:0	Depth:nan
+RSZAXPI001576104_Andrena_haemorrhoa: 674/4554	Percentage:15	Depth:1.3
+gi_27733918_Melipona_bicolor: 0/4257	Percentage:0	Depth:nan
+RSZAXPI001574100_Lasioglossum_malachurum: 391/4773	Percentage:8.2	Depth:1
+RSZAXPI001573101_Andrena_nitida: 4471/4475	Percentage:1e+02	Depth:25
+RSZAXPI00160619_Nomada_flava: 200/6104	Percentage:3.3	Depth:1
+RSZAXPI00142588_Osmia_rufa: 0/4446	Percentage:0	Depth:nan
+RSZAXPI00161735_Hylaeus_confusus: 0/4392	Percentage:0	Depth:nan
+gi_299890912_Apis_cerana: 0/4381	Percentage:0	Depth:nan
+RSZAXPI00143086_Bombus_pascuorum: 0/4227	Percentage:0	Depth:nan
+gi_511348007_Apis_florea: 200/4387	Percentage:4.6	Depth:1
+RSZAXPI001598133_Lasioglossum_morio: 100/4365	Percentage:2.3	Depth:1
+RSZAXPI00161023_Lasioglossum_lativentre: 0/4418	Percentage:0	Depth:nan
+RSZAXPI001582111_Lasioglossum_pauxillum: 4189/4833	Percentage:87	Depth:4.9
+RSZAXPI00142497_Apis_mellifera: 200/5721	Percentage:3.5	Depth:1
+RSZAXPI001600142_Sphecodes_ephippius: 4634/4764	Percentage:97	Depth:8.9
+RSZAXPI00161941_Lasioglossum_calceatum: 300/4941	Percentage:6.1	Depth:1
+RSZAXPI00161432_Lasioglossum_zonulum: 200/4287	Percentage:4.7	Depth:1
+RSZAXPI00142796_Lasioglossum_xanthopus: 0/4004	Percentage:0	Depth:nan
+RSZAXPI001602169_Nomada_goodeniana: 0/4410	Percentage:0	Depth:nan
+
+Overall:
+Total:244159
+Covered:45680
+Percentage:19
+
